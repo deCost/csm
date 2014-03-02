@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSM/CreateSchedule.aspx.cs">
+    <Files>
+      <File FileName="CSM/CreateSchedule.aspx" Line="28" Column="60" />
+      <File FileName="CSM/CreateSchedule.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="CSM/CreateSchedule.aspx.cs" Line="118" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/costillo/Projects/CSM/CSM/Register.aspx.cs" line="39" column="1" />
+      <Breakpoint file="/Users/costillo/Projects/CSM/CSM/AjaxHandler.ashx.cs" line="296" column="1" />
+      <Breakpoint file="/Users/costillo/Projects/CSM/CSM/Settings.aspx.cs" line="293" column="1" />
+      <Breakpoint file="/Users/costillo/Projects/CSM/CSM/CreateSchedule.aspx.cs" line="164" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,138 @@
+/* This file was compressed using MbCompression library. http://blog.mironabramson.com */
+.toast-container {
+    width: 280px;
+    z-index: 9999
+}
+
+* html .toast-container {
+    position: absolute
+}
+
+.toast-overlay {
+    background-image: url('fancybox_sprite.png');
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 1010;
+    background-color: #fff
+}
+
+.toast-item {
+    height: auto;
+    opacity: 0.9;
+    color: #103f6f;
+    padding: 0 6px;
+    font-size: 11px;
+    display: block;
+    position: relative;
+    margin: 0 0 12px 0;
+    min-height: 65px;
+    vertical-align: middle
+}
+
+.toast-item .sbutton {
+    padding: 3px 26px
+}
+
+.toast-item p {
+    text-align: left;
+    margin: 26px 0 13px 50px
+}
+
+.toast-item-close {
+    background: url(images/close.png);
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: -15px;
+    right: 0
+}
+
+.toast-item-image {
+    width: 53px;
+    height: 52px;
+    position: relative;
+    float: left;
+    margin: 5px 20px
+}
+
+.toast-item-image-notice {
+    background: url(images/notice.png)
+}
+
+.toast-item-image-success {
+    background: url(images/success.png);
+    width: 57px;
+    height: 47px
+}
+
+.toast-item-image-warning {
+    background: url(images/warning.png)
+}
+
+.toast-item-image-error {
+    background: url(images/error.png)
+}
+
+.toast-type-notice {
+    color: #103f6f
+}
+
+.toast-type-success {
+    color: #103f6f
+}
+
+.toast-type-warning {
+    color: #103f6f
+}
+
+.toast-type-error {
+    color: #103f6f
+}
+
+.toast-position-top-left {
+    position: fixed;
+    left: 20px;
+    top: 20px
+}
+
+.toast-position-top-center {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    margin-left: -140px
+}
+
+.toast-position-top-right {
+    position: fixed;
+    top: 20px;
+    right: 20px
+}
+
+.toast-position-middle-left {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    margin-top: -40px
+}
+
+.toast-position-middle-center {
+    position: fixed;
+    left: 50%;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%
+}
+
+.toast-position-middle-right {
+    position: fixed;
+    right: 20px;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%
+}

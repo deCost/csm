@@ -1,0 +1,11 @@
+/Users/costillo/Projects/CSM/CSM.DataAccess/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/CSM.DataAccess.dll.mdb
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/CSM.DataAccess.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/obj/Debug/CSM.DataAccess.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/obj/Debug/CSM.DataAccess.dll.mdb
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/mysql.web.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/mysql.data.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/mysql.data.entity.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/mysql.data.entity.EF6.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/CSM.Common.dll
+/Users/costillo/Projects/CSM/CSM.DataAccess/bin/Debug/CSM.Common.dll.mdb

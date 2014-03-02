@@ -1,0 +1,594 @@
+body
+{
+	background-color: #000;
+	font-family: Lucida, Verdana, sans-serif;
+	font-size:12px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+h1
+{
+	color:#fff;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.maincontent
+{
+	margin: 20px 0;
+}
+
+/*Components*/
+
+.sprite
+{
+	background: url(sprite.jpg);
+}
+
+.sprite a
+{
+	color:#fff;
+
+}
+
+.relleno
+{
+	height: 100px;
+}
+
+.caja
+{
+	background-position: -222px -285px;
+	width: 230px;
+	height: 100px; 
+	padding: 80px;
+	color: #fff;
+	text-align:left;
+}
+
+.cajalarga
+{
+	background-position: -360px -585px;
+	width: 390px;
+	height: 390px;
+	color: #fff;
+	text-align: left;
+}
+
+.myprofile
+{
+	background: url(myportfolio.jpg) no-repeat;
+	height:397px;
+	width:386px;
+}
+
+.profile
+{
+	background: url(portfolio.jpg) no-repeat;
+	height:397px;
+	width:386px;
+}
+
+.compositionMini
+{
+	background: url(sprite.jpg);
+	padding: 10px 0 0;
+	height:25px;
+}
+
+.compositionMini.left
+{
+	background-position: -400px -549px;
+	width:10px;
+	float:left;
+}
+
+.compositionMini.middle
+{
+	background-position: -440px 40px;
+	float:left;
+	margin: 0;
+
+}
+
+.compositionMini.middle .logoMini
+{
+	top: -5px;
+	position: relative;
+	right: 5px;
+	text-decoration:none;
+	margin: 0 10px;
+	}
+
+.compositionMini.middle .logoMini img
+{
+	vertical-align:middle;
+}
+
+.compositionMini.right
+{
+	background-position: -422px -549px;
+	width:35px;
+	float:left;
+}
+
+.composition
+{
+	margin: 20px;
+	background: url(fondoamarillo.jpg);
+	-moz-box-shadow: 20px 20px 200px #333333 inset;
+	-webkit-box-shadow: 20px 20px 200px #333333 inset;
+	box-shadow: 20px 20px 200px #333333 inset;
+	padding: 40px;
+	border: 1px dotted #8d3400;
+	color: #fff;
+	text-shadow: 3px 2px 10px #333;
+}
+
+.composition .datepicker
+{
+	width:150px;
+	}
+
+.trampabottle
+{
+	background: url(trampabottle.jpg) no-repeat;
+	height:250px;
+	width:250px
+}
+
+.tecla
+{
+	background-position: -50px -358px;
+	width: 150px;
+	height: 150px;
+}
+
+.tecla .date
+{
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	padding: 33px 0 0 0;
+	color: #fff;
+	text-shadow: 3px 3px 3px #333;
+}
+
+.tecla .time
+{
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	padding: 33px 0 0 0;
+	color: #fff;
+	text-shadow: 3px 3px 3px #333;
+}
+
+/*Components*/
+.footer,
+.footer a
+{
+	color:#fff;
+	font-size:12px;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.registerform
+{
+	margin: 10px 10px;
+	padding: 75px 0 0 14px;
+}
+
+.registerform input
+{
+	font-size:10px;
+	width:150px;
+	float:left;
+	margin: 5px 4px;
+}
+
+.registerform input[type="checkbox"]
+{
+	width:auto;
+}
+
+.registerform span.conditions
+{
+	font-size:10px;
+}
+
+.pic, .pic a{
+	overflow:hidden;
+}
+
+#imagelist .pic, 
+#imagelist .pic a
+{
+    width:100px;
+	height:100px;
+}
+
+.pic{
+	/* Styles specific to the pic class */
+	border:5px solid #EEEEEE;
+	border-bottom:18px solid #eeeeee;
+
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:2px 2px 3px #333333;
+	-webkit-box-shadow:2px 2px 3px #333333;
+	box-shadow:2px 2px 3px #333333;
+}
+
+.pic a{
+	/* Specific styles for the hyperlinks */
+	text-indent:-999px;
+	display:block;
+	/* Setting display to block enables advanced styling for links */
+}
+
+.portfolio
+{
+	padding: 20px 0 0 40px;
+}
+
+.portfolio .image
+{
+	height:150px;
+	position:relative;
+	padding:75px 75px 35px;
+}
+
+.profile .portfolio .image
+{
+	height:100px;
+}
+
+.portfolio .image img
+{
+	-moz-transform:rotate(-10deg); 
+	-webkit-transform:rotate(-10deg);
+	height:150px;
+	width:150px;
+}
+
+.profile .portfolio .image img
+{
+	height:100px;
+	width:100px;
+}
+
+.portfolio h4,
+.portfolio h2
+{
+	font-size: 46px;
+	color:#fff;
+	/* CSS3 Box Shadow */
+	-moz-text-shadow:2px 2px 3px #333333;
+	-webkit-text-shadow:2px 2px 3px #333333;
+	text-shadow:2px 2px 3px #333333;
+
+}
+
+.portfolio h4
+{
+	font-size: 26px;
+
+
+}
+
+.publications,
+.tools
+{
+	color:#fff;
+}
+
+.tools
+{
+
+}
+
+.publications
+{
+}
+.events .tecla
+{
+	margin:10px 0;
+	}
+
+.listcontent
+{
+	color:#fff;
+	margin: 0 25px;
+	}
+
+.listcontent h2
+{
+	color:#fff;
+	font-size:30px;
+}
+
+.publications
+{
+	color:#888;
+	}
+
+.publications .friendbubble,
+.publications .mybubble
+{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin:10px 0;
+}
+
+.publications .friendbubble .attach,
+.publications .mybubble .attach
+{
+	width: 320px;
+	margin: 10px auto;
+	vertical-align:middle;
+}
+
+.publications .friendbubble .attach img,
+.publications .mybubble .attach img
+{
+	/*border: 3px solid #959292;*/
+	position:relative !important;
+	
+}
+
+.publications .friendbubble .attach span,
+.publications .mybubble .attach span
+{
+	width: 200px;
+	float: right;
+	margin-top: 10px;
+	color: #999a9a;
+
+}
+
+.publications .friendbubble .content .leftarrow
+{
+	width: 15px;
+	height: 17px;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+.publications .mybubble .content .leftarrow
+{
+	width: 15px;
+	height: 17px;
+	position: absolute;
+	top: 0px;
+	right: -15px;
+}
+
+.publications .friendbubble .image
+{
+	width: 75px;
+	height: 75px;
+	float: left;
+	padding-top: 10px;
+	position: relative;
+}
+
+.publications .mybubble .image
+{
+	width: 75px;
+	height: 75px;
+	float: right;
+	padding-top: 10px;
+	position: relative;
+}
+
+.publications .friendbubble .image .icon
+{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	z-index:99;
+	top: -5px;
+	right: -10px;
+	cursor: pointer;
+}
+
+.publications .mybubble .image .icon
+{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	z-index:99;
+	top: -5px;
+	left: -10px;
+	cursor: pointer;
+}
+
+.publications .friendbubble .image img,
+.publications .mybubble .image img
+{
+	vertical-align:top;
+	width: 75px;
+	height: 75px;
+	border: 3px solid #959292;
+}
+
+.publications .friendbubble .content
+{
+	background-color: white;
+	width: 365px;
+	padding: 10px;
+	border: 1px solid #959292;
+	float: right;
+	position: relative;
+}
+
+.publications .mybubble .content
+{
+	background-color: white;
+	width: 365px;
+	padding: 10px;
+	border: 1px solid #959292;
+	float: left;
+	position: relative;
+}
+
+.publications .friendbubble .content a.userlink,
+.publications .mybubble .content a.userlink
+{
+    font-weight:bold;
+    margin: 5px 5px 10px;
+    display:block;
+}
+
+
+.publications .friendbubble .content .summary,
+.publications .mybubble .content .summary
+{
+	margin: 5px 0;
+	width: 100%;
+	height:10px;
+}
+
+.publications .friendbubble .content .summary .date,
+.publications .mybubble .content .summary .date
+{
+	font-size: 11px;
+	width: 50%;
+	float: left;
+}
+
+.publications .friendbubble .content .summary .comments,
+.publications .mybubble .content .summary .comments
+{
+	font-size: 11px;
+	width: 150px;
+	vertical-align: middle;
+	float: right;
+	position: relative;
+	text-align:right
+}
+
+.publications .friendbubble .content .summary .comments a,
+.publications .mybubble .content .summary .comments a
+{
+	padding-right:35px
+}
+
+.publications .friendbubble .content .summary .comments div.icon,
+.publications .mybubble .content .summary .comments div.icon
+{
+	background: url(../images/sprite.png) no-repeat scroll -242px -45px;
+	width: 26px;
+	height: 28px;
+	cursor: pointer;
+	right: -5px;
+	position:absolute;
+	top:-10px
+}
+
+.publications .friendbubble .content .pub-comments,
+.publications .mybubble .content .pub-comments
+{
+	margin-top:10px;
+}
+
+.publications .friendbubble .content .pub-comments .comm,
+.publications .mybubble .content .pub-comments .comm
+{
+	border-top:1px dotted #959292;
+	padding-top:5px;
+	min-height:55px;
+}
+
+.publications .friendbubble .content .pub-comments .comm .commimg,
+.publications .mybubble .content .pub-comments .comm .commimg
+{
+	width:30px;
+	height:30px;
+	float:left;
+}
+
+.publications .friendbubble .content .pub-comments .comm .commimg img,
+.publications .mybubble .content .pub-comments .comm .commimg img
+{
+	width:30px;
+	height:30px;
+}
+
+.publications .friendbubble .content .pub-comments .comm .commtxt,
+.publications .mybubble .content .pub-comments .comm .commtxt
+{
+	width:300px;
+	float:left;
+	margin-left:20px;
+	font-size:10px;
+}
+
+.publications .friendbubble .content .pub-comments .comm .commtxt input[type=text],
+.publications .mybubble .content .pub-comments .comm .commtxt input[type=text],
+.publications .friendbubble .content .pub-comments .comm .commtxt textarea,
+.publications .mybubble .content .pub-comments .comm .commtxt textarea
+{
+	width:300px;
+	font-size:10px	
+}
+
+
+.publications .friendbubble .content .pub-comments .comm .commsummary,
+.publications .mybubble .content .pub-comments .comm .commsummary
+{
+	margin: 5px 0;
+	width: 100%;
+	height:10px;
+	text-align:right;
+}
+
+.publications .friendbubble .content .pub-comments .comm .commsummary,
+.publications .mybubble .content .pub-comments .comm .commsummary .date
+{
+	font-size: 11px;
+	width: 50%;
+	float: right;
+}
+
+.viewmorebox
+{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #959292;
+}
+
+/*Smartphone Portrait*/
+@media only screen and (max-width: 767px) {
+	
+	
+	
+}

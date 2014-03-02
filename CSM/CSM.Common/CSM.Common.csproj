@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CSM.Common</RootNamespace>
+    <AssemblyName>CSM.Common</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Album.cs" />
+    <Compile Include="Classes\EmailTemplateType.cs" />
+    <Compile Include="Classes\ContactForm.cs" />
+    <Compile Include="Classes\IPublication.cs" />
+    <Compile Include="Classes\ITicket.cs" />
+    <Compile Include="Classes\Message.cs" />
+    <Compile Include="Classes\Picture.cs" />
+    <Compile Include="Classes\Privacy.cs" />
+    <Compile Include="Classes\PrivacyOption.cs" />
+    <Compile Include="Classes\Publication.cs" />
+    <Compile Include="Classes\Rule.cs" />
+    <Compile Include="Classes\RuleType.cs" />
+    <Compile Include="Classes\Schedule.cs" />
+    <Compile Include="Classes\ScheduleLink.cs" />
+    <Compile Include="Classes\ScheduleType.cs" />
+    <Compile Include="Classes\Status.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Classes\UserLink.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="WrongDataException.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+</Project>

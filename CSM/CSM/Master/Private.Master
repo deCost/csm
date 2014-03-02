@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Private.master.cs" Inherits="CSM.Master.Private" %>
+<%@ Register Src="~/Control/Footer.ascx" TagName="footer" TagPrefix="uc" %>
+<%@ Register Src="~/Control/TopBar.ascx" TagName="topbar" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+	<title>Trampa Teatre Alumnos</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../css/lib/base.css">
+	<link rel="stylesheet" href="../css/lib/skeleton.css">
+	<link rel="stylesheet" href="../css/lib/layout.css">
+	<link rel="stylesheet" href="../css/lib/fancymoves.css">
+	<link rel="stylesheet" href="../css/lib/jquery.fancybox.css">
+	<link rel="stylesheet" href="../css/lib/wt-rotator.css">
+	<link rel="stylesheet" href="../css/lib/alerts.css">
+	<link rel="stylesheet" href="../css/lib/ui-darkness/jquery-ui.css">
+	<link rel="stylesheet" href="../css/lib/ui-darkness/jquery.ui.theme.css">
+	<link rel="stylesheet" href="../css/trampa.css">
+	<script runat="server">
+	
+	</script>
+</head>
+<body>
+<form id="form1" runat="server">
+  	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+<div class="container">
+	<div class="sixteen columns">
+		<uc:topbar ID="topbar" runat="server" />
+		<div class="sixteen columns maincontent">
+			<asp:ContentPlaceHolder ID="bodyContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+		<uc:footer ID="footer" runat="server" />
+	</div>
+</div><!-- container -->
+</form>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/lib/jquery.browser.js"></script>
+<script src="js/lib/jquery.fancybox.pack.js"></script>
+<script src="js/lib/jquery.fancybox-thumbs.js"></script>
+<script src="js/lib/jquery.wt-rotator.min.js"></script>
+<script src="js/lib/customAlerts.js"></script>
+<script src="js/lib/jquery.CSM.utilities.js"></script>
+<script src="js/Private.js"></script>
+	<asp:ContentPlaceHolder ID="scripts" runat="server"></asp:ContentPlaceHolder>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+

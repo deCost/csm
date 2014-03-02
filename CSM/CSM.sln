@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM", "CSM\CSM.csproj", "{BAB64E4C-8DEF-412A-BA2D-2FC08566FF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM.Common", "CSM.Common\CSM.Common.csproj", "{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM.DataManager", "CSM.DataManager\CSM.DataManager.csproj", "{E662CAB2-2524-4930-8EFF-6304EFC11458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM.DataAccess", "CSM.DataAccess\CSM.DataAccess.csproj", "{CBA4AC41-28DF-4783-A4CC-606494B88FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB64E4C-8DEF-412A-BA2D-2FC08566FF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB64E4C-8DEF-412A-BA2D-2FC08566FF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB64E4C-8DEF-412A-BA2D-2FC08566FF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB64E4C-8DEF-412A-BA2D-2FC08566FF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA4AC41-28DF-4783-A4CC-606494B88FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA4AC41-28DF-4783-A4CC-606494B88FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA4AC41-28DF-4783-A4CC-606494B88FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA4AC41-28DF-4783-A4CC-606494B88FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E662CAB2-2524-4930-8EFF-6304EFC11458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E662CAB2-2524-4930-8EFF-6304EFC11458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E662CAB2-2524-4930-8EFF-6304EFC11458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E662CAB2-2524-4930-8EFF-6304EFC11458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CSM\CSM.csproj
+	EndGlobalSection
+EndGlobal

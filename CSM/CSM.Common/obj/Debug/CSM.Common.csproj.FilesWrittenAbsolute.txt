@@ -1,0 +1,5 @@
+/Users/costillo/Projects/CSM/CSM.Common/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Projects/CSM/CSM.Common/bin/Debug/CSM.Common.dll.mdb
+/Users/costillo/Projects/CSM/CSM.Common/bin/Debug/CSM.Common.dll
+/Users/costillo/Projects/CSM/CSM.Common/obj/Debug/CSM.Common.dll
+/Users/costillo/Projects/CSM/CSM.Common/obj/Debug/CSM.Common.dll.mdb

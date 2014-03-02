@@ -1,0 +1,908 @@
+02/03/02014 12:01#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:01#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:01#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:04#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:04#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:04#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:13#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:15#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:15#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:15#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:20#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:20#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:20#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:20#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:20#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:20#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:25#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:25#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:25#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:25#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:26#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:26#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:26#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:28#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:28#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:28#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:33#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:33#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:33#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:33#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:34#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:35#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:36#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:36#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:37#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:38#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 2, Status: 1 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:38#Error occured from Home.aspx[btnPublication_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 12:38#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:40#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:40#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:40#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:40#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:42#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:42#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:42#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:49#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:49#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:49#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:52#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:52#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:52#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:54#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 12:57#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 12:57#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 12:57#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:00#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:00#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:00#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:02#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:02#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:02#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:02#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:02#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:04#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:04#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:04#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:17#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:19#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:19#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:20#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:20#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:20#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:20#Error occured from List.aspx[Page_Load] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+02/03/02014 01:20#Error occured from List.aspx[Page_Load] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+02/03/02014 01:20#Error occured from List.aspx[Page_Load] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+02/03/02014 01:20#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:22#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:22#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:22#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:24#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:24#Error occured from Home.aspx[btnPublication_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 01:24#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:24#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:24#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 2, Status: 1 
+ Stacktrace:
+02/03/02014 01:24#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:25#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:28#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:30#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:30#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 2, Status: 1 
+ Stacktrace:
+02/03/02014 01:30#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:31#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:32#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:32#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:32#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:33#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:33#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:36#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:36#Error occured from Home.aspx[btnPublication_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 01:36#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:43#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:43#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:43#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:50#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:50#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:50#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:54#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:54#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:54#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:54#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:55#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:55#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:55#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:56#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:58#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 01:58#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 01:58#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 01:59#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:00#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:02#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:02#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:02#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:02#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:03#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:03#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:03#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:03#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:03#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:04#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:04#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:04#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:05#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:05#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 2, Status: 1 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:05#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:05#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:05#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:15#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:15#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:15#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:15#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:15#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:15#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:17#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:17#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:20#Error occured from GlobalDL[GetScheduleFromUser] | Error message: Cannot cast from source type to destination type. 
+ Stacktrace:
+02/03/02014 02:21#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:21#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:21#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:25#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:25#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:25#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:27#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:31#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:32#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:40#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:40#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:40#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:40#Error occured from GlobalDL[GetUser] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:40#Error occured from GlobalDL[GetUser] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:40#Error occured from GlobalDL[GetUser] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:43#Error occured from GlobalDL[GetUser] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:43#Error occured from GlobalDL[GetRulesFromUser] | Error message: Reading from the stream has failed. 
+ Stacktrace:
+02/03/02014 02:43#Error occured from Profile.aspx[Page_Load] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:44#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:44#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:44#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:45#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:45#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:45#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:48#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:48#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:48#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:49#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:49#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:49#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:50#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:50#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:50#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:51#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:51#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:51#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:53#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:53#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:53#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:57#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:57#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:57#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:58#Error occured from Profile.aspx[btnPublication_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:58#Error occured from Profile.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:58#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:58#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 2, Status: 1 
+ Stacktrace:
+02/03/02014 02:58#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 02:59#Error occured from List.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 02:59#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:59#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:59#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:07#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:08#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:08#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:08#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:10#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:10#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:10#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:24#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:24#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:24#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:25#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:26#Error occured from Profile.aspx[Page_Load] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 03:26#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:27#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:27#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:27#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:36#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:36#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:36#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:39#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:39#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:39#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:42#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:42#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:42#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:44#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:44#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:44#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:45#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:45#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:45#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:45#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:46#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:46#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 03:48#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:48#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:48#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:52#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:52#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:52#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:53#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:54#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:55#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:55#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:55#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:56#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:56#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:56#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:57#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:57#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:57#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:58#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:58#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:58#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 03:59#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 03:59#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 03:59#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:00#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:00#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:00#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:01#Error occured from Profile.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:01#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:01#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:01#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:02#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:02#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:02#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:03#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:08#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:11#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:12#Error occured from Profile.aspx[Page_Load] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:12#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:12#Error occured from Profile.aspx[Page_Load] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:12#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:12#Error occured from Profile.aspx[Page_Load] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:12#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:23#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:23#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:23#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:26#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:26#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:26#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:26#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:27#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:29#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:29#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:29#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:29#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:31#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:31#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:32#Error occured from GlobalDL[GetUsersLinkBy] | Error message: Parameter 'puserto' not found in the collection. 
+ Stacktrace:
+02/03/02014 04:39#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:39#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:43#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:43#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:45#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:45#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:50#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:50#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:52#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:52#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 04:54#Error occured from Settings.aspx[btnProfile_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:56#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+02/03/02014 04:56#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 04:56#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:02#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:02#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:03#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:03#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:11#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:11#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:13#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:13#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:17#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:17#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:19#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:19#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:20#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:20#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 05:26#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 05:26#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:04#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:04#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:06#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:06#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:10#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:10#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:13#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:13#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:22#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:22#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:23#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:23#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:33#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:33#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:41#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:41#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:45#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:45#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:47#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:47#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+02/03/02014 02:49#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+02/03/02014 02:49#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBA4AC41-28DF-4783-A4CC-606494B88FCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CSM.DataAccess</RootNamespace>
+    <AssemblyName>CSM.DataAccess</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.web.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DefaultDL.cs" />
+    <Compile Include="GlobalDL.cs" />
+    <Compile Include="RegisterFormDL.cs" />
+    <Compile Include="SQLMgr.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\CSM.Common\CSM.Common.csproj">
+      <Project>{48111E71-6DA4-4CC1-B23C-02D93C3DC0D7}</Project>
+      <Name>CSM.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
