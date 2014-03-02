@@ -10,12 +10,8 @@
         <div class="five columns">
 	        <h4>Datos personales</h4>
  	        <div class="form-personaldata">
-	            <p> 
-                     <asp:Literal runat="server"  ID="txtprofileimg" />
-	                <asp:Label ID="imgjaxload" runat="server" Style="display:none">
-	                    <img src="images/ajax-loader.gif" alt="loading" />
-	                </asp:Label>
-	            </p>
+	            <asp:Image runat="server" id="imgProfile" CssClass="pic" Width="150" Height="150" />
+	            <asp:FileUpload runat="server" id="uplProfile" />
               
 		        <p>Nombre completo *:</p> 
 		        <p>
@@ -40,7 +36,7 @@
 		    <h4>Privacidad</h4>
 		    <div class="form-privacy">
 			    <p>Selecciona tipo *:<p> 
-			    <asp:RadioButtonList runat="server" ID="rdbRuleType" RepeatDirection="Horizontal" AutoPostBack="false">
+			    <asp:RadioButtonList runat="server" ID="rdbRuleType" RepeatDirection="Vertical" AutoPostBack="false">
 	                <asp:ListItem Text="Todas" Value="0"></asp:ListItem>
 	                <asp:ListItem Text="Imágenes" Value="1"></asp:ListItem>
 	                <asp:ListItem Text="Publicaciones" Value="2"></asp:ListItem>

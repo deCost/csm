@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="CSM.Profile" MasterPageFile="~/Master/Private.Master" %>
+﻿<%@ Page Language="C#" Inherits="CSM.Profile" MasterPageFile="~/Master/Private.Master" EnableEventValidation="false" %>
 <%@ MasterType VirtualPath="~/Master/Private.Master" %>
 
 <%@ Register Src="~/Control/Profile.ascx" TagName="profile" TagPrefix="uc" %>

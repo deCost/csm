@@ -15,6 +15,7 @@
 			<asp:HyperLink runat="server" id="btnList" NavigateUrl="~/List.aspx?fn=e">Eventos</asp:HyperLink> | 
 			<asp:HyperLink runat="server" id="btnClassroom" NavigateUrl="~/List.aspx?fn=c">Clases</asp:HyperLink> |
 			<asp:HyperLink runat="server" id="btnSettings" NavigateUrl="~/Settings.aspx">Mis datos</asp:HyperLink> | 
+			<asp:HyperLink runat="server" id="btnFriends" NavigateUrl="~/List.aspx?fn=a">Mis amigos</asp:HyperLink> | 
 			<asp:HyperLink runat="server" id="btnSchedule" NavigateUrl="~/CreateSchedule.aspx">Crear evento</asp:HyperLink> | 
 		</div>
 		<div class="compositionMini right"></div>

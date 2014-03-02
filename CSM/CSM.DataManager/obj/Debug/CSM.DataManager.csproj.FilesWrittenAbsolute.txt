@@ -8,3 +8,13 @@
 /Users/costillo/Projects/CSM/CSM.DataManager/bin/Debug/CSM.DataAccess.dll
 /Users/costillo/Projects/CSM/CSM.DataManager/bin/Debug/CSM.DataAccess.dll.mdb
 /Users/costillo/Projects/CSM/CSM.DataManager/bin/Debug/MySql.Data.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.DataManager.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.DataManager.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Debug/CSM.DataManager.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Debug/CSM.DataManager.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.Common.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.Common.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.DataAccess.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/CSM.DataAccess.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Debug/MySql.Data.dll

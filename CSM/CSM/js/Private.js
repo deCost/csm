@@ -32,6 +32,10 @@ $(document).ready(function () {
 	
 });
 
+function clearHTMLStrips(obj) {
+    obj.value = obj.value.replace(/<(?:.|\n)*?>/gm, '')
+}
+
 function setImageLoad(responseLabel) {
 
     $("#" + responseLabel).html('<img src="images/ajax-loader.gif" alt="loading" />');

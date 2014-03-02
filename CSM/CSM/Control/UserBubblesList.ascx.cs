@@ -67,6 +67,8 @@ namespace CSM.Control
             }
         }
 
+		public bool canComment { get; set; }
+
         private bool _isMessages;
 
         public bool isMessages

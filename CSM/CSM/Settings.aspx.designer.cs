@@ -15,9 +15,9 @@ namespace CSM {
 		
 		protected System.Web.UI.WebControls.Content Content2;
 		
-		protected System.Web.UI.WebControls.Literal txtprofileimg;
+		protected System.Web.UI.WebControls.Image imgProfile;
 		
-		protected System.Web.UI.WebControls.Label imgjaxload;
+		protected System.Web.UI.WebControls.FileUpload uplProfile;
 		
 		protected System.Web.UI.WebControls.TextBox nameinput;
 		

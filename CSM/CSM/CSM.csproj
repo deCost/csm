@@ -259,7 +259,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Master\" />
-    <Folder Include="Pages\" />
     <Folder Include="Control\" />
     <Folder Include="userData\" />
     <Folder Include="userData\1\" />

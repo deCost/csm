@@ -23,6 +23,8 @@ namespace CSM.Control {
 		
 		protected System.Web.UI.WebControls.HyperLink btnSettings;
 		
+		protected System.Web.UI.WebControls.HyperLink btnFriends;
+		
 		protected System.Web.UI.WebControls.HyperLink btnSchedule;
 	}
 }

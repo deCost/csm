@@ -81,6 +81,7 @@ namespace CSM
             {
 
                 privateFunctions.isLoggedSession(ref user);
+				UploadFile();
 
                 Picture pic = null;
                 if (Session[user.SessionID + "_profile"] != null)
@@ -148,6 +149,48 @@ namespace CSM
 
         }
 
+		/// <summary>
+		/// Event handler for file upload completed
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		protected void UploadFile()
+		{
+
+			if (uplProfile.HasFile)
+			{
+				try
+				{
+
+					Private privateFunctions = new Private();
+					User user = new User();
+
+					privateFunctions.isLoggedSession(ref user);
+
+					Picture pic = null;
+					HttpPostedFile file = uplProfile.PostedFile;
+					string imgmsg = "";
+					pic = new Picture() { AlbumID = 0, PicDate = DateTime.Now };
+					if (!Utilities.UploadImageFromUser(file, ref user, ref pic, ref imgmsg))
+					{
+						return;
+					}
+
+					Session[user.SessionID + "_profile"] = pic;                   
+
+				}
+				catch (Exception ex)
+				{
+					Utilities.LogException(Path.GetFileName(Request.Path),
+						MethodInfo.GetCurrentMethod().Name,
+						ex);
+
+				}
+			}
+
+
+		}
+
         /// <summary>
         /// Method to validate register form
         /// </summary>
@@ -202,6 +245,8 @@ namespace CSM
         /// <param name="rules"></param>
         private void LoadForm(ref User user, ref List<Rule> rules)
         {
+			imgProfile.ImageUrl = user.ProfileImage;
+
             nameinput.Text = user.UserName;
             surnameinput.Text = user.UserSurname;
             birthdateinput.Text = user.UserBirth.ToString("dd/MM/yyyy");

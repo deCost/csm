@@ -23,7 +23,7 @@ namespace CSM
 			hdnuserid.Value = user.UserID.ToString();
 			listBubbles.ProfileUser = profile.ProfileUser = user;
 			listBubbles.isMyProfile = profile.isMyProfile = true;
-
+			listBubbles.canComment = true;
 
 		}
 	}

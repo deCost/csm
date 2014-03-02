@@ -17,6 +17,8 @@ namespace CSM.Control {
 		
 		protected System.Web.UI.WebControls.Repeater repComm;
 		
+		protected System.Web.UI.WebControls.Panel pnlCommentWritter;
+		
 		protected System.Web.UI.WebControls.TextBox txtcomment;
 		
 		protected System.Web.UI.WebControls.Button btnComment;

@@ -17,6 +17,8 @@ namespace CSM {
 		
 		protected CSM.Control.UserScheduleList schedule;
 		
+		protected CSM.Control.UserLinkedList linkeds;
+		
 		protected System.Web.UI.WebControls.Content scriptsContent;
 		
 		public new CSM.Master.Private Master {

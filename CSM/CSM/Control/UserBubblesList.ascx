@@ -48,7 +48,8 @@
 	                        <FooterTemplate></FooterTemplate>
 	                    </asp:Repeater>
 	                    <div class="clear"></div>
-	                    <div class="comm">
+					<%if(canComment){%>
+	                    <asp:Panel runat="server" id="pnlCommentWritter" CssClass="comm">
 				            <div class="commimg">
 	                            <img alt="" width="25" height="25"  src="<%=CurrentUser.ProfileImage%>" class="pic" />
 				            </div>
@@ -61,7 +62,8 @@
 					            </span>
 					            
 				            </div>
-			            </div>						
+			            </asp:Panel>		
+			           <%}%>				
 		            </div>
 	                <%} %>
 	            </div>

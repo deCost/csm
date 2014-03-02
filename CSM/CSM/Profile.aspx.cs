@@ -15,7 +15,7 @@ namespace CSM
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			Private privateManager = new Private();
 			Decimal userid = 0;
 
 			if (!string.IsNullOrEmpty(Request["user"]) && Decimal.TryParse(Request["user"], out userid))
@@ -37,6 +37,14 @@ namespace CSM
 					listBubbles.ProfileUser = profile.ProfileUser = user;
 					listBubbles.isMyProfile = profile.isMyProfile = false;
 					tools.UserTo = userid;
+					User userLogger = new CSM.Classes.User();
+					Status status = Status.Pending;
+					if(privateManager.isLoggedSession(ref userLogger))
+					{
+						GlobalBS.GetLinkStatus(user, userLogger, ref status);
+					}
+					listBubbles.canComment = tools.Visible = status == Status.Active;
+					 
 
 				}
 				catch (WrongDataException ex)

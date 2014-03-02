@@ -25,9 +25,16 @@ namespace CSM
 				case "e":
 					schedule.lstSchedToShow.Add (ScheduleType.Event);
 					schedule.lstSchedToShow.Add (ScheduleType.Students);
+					linkeds.Visible = false;
 					break;
 				case "c":
 					schedule.lstSchedToShow.Add (ScheduleType.Task);
+					linkeds.Visible = false;
+					break;
+				case "a":
+					schedule.Visible = false;
+					linkeds.ProfileUser = user;
+					linkeds.isMyProfile = true;
 					break;
 				}
 			} else {
