@@ -212,12 +212,12 @@ namespace CSM.Control
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format("jsAlert('{0}');", ex.Message), true);
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format("alertWarning('{0}');", ex.Message), true);
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", "jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", "alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
                 Utilities.LogException(Path.GetFileName(Request.Path),
                             MethodInfo.GetCurrentMethod().Name,
                             ex);
@@ -277,7 +277,7 @@ namespace CSM.Control
         //            if (!Utilities.UploadImageFromUser(file, ref user, ref pic, ref imgmsg))
         //            {
         //                //Script register to show exception info
-        //                ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){jsAlert('{0}');});", imgmsg), true);
+        //                ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){alertWarning('{0}');});", imgmsg), true);
         //                return;
         //            }
 
@@ -292,7 +292,7 @@ namespace CSM.Control
         //                ex);
                     
         //            string msg= "Ha ocurrido un error inexperado al intentar subir su imagen. Por favor, inténtelo más tarde.";
-        //            ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){jsError('{0}');});", msg), true);
+        //            ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){alertError('{0}');});", msg), true);
         //        }
         //    }
 
@@ -307,7 +307,7 @@ namespace CSM.Control
         //{
 
         //    string msg = "Lo sentimos pero ocurrió un error al procesar su imagen";
-        //    ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){jsAlert('{0}');});", msg), true);
+        //    ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"$(function(){alertWarning('{0}');});", msg), true);
         //    Utilities.LogException("AjaxLoadingImage", MethodInfo.GetCurrentMethod().ToString(), new WrongDataException(e.StatusMessage));
 
 

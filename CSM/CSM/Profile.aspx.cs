@@ -50,13 +50,13 @@ namespace CSM
 				catch (WrongDataException ex)
 				{
 					//Script register to show exception info
-					ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"jsError('{0}');", ex.Message),true);
+					ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"alertError('{0}');", ex.Message),true);
 					return;
 				}
 				catch (Exception ex)
 				{
 					//Script register to show exception info
-					ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');",true);
+					ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');",true);
 					Utilities.LogException(Path.GetFileName(Request.Path),
 						MethodInfo.GetCurrentMethod().Name,
 						ex);

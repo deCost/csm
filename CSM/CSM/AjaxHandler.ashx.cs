@@ -234,7 +234,7 @@ namespace TFC.NET
                         new Rule() { RuleID = Decimal.Parse(context.Request["ruleid"]) },
                         publid,
                         -1,
-                        context.Request["comment"]))
+						HttpUtility.UrlDecode(context.Request["comment"])))
                     {
                         context.Response.Write("1: Su comentario se ha registrado correctamente");
                     }

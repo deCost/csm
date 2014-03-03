@@ -60,8 +60,8 @@ namespace CSM.Control
             {
                 // By using private.Master public mehods, we don't need to create a utilities class for website
                 Private privateFunctions = new Private();
-                int friendRequestsCount = 0;
-                
+				int friendRequestsCount = 0;
+				int messagesRequestCount = 0;
                 try
                 {
                     if (!string.IsNullOrEmpty(_user.ProfileImage))
@@ -92,15 +92,16 @@ namespace CSM.Control
 
                         // Sets text for notification counter
 						//txttotalnotifications.Text = (friendRequestsCount + messagesRequestCount).ToString();
-						//txtfriendrequest.Text = "Amigos" + (friendRequestsCount > 0 ? string.Format(" ({0})", friendRequestsCount) : "");
-                        //txtmessagesrequest.Text = "Mensajes" + (messagesRequestCount > 0 ? string.Format(" ({0})", messagesRequestCount) : "");
+						txtfriendrequest.Text = "Amigos" + (friendRequestsCount > 0 ? string.Format(" ({0})", friendRequestsCount) : "");
+						//txtmessagesrequest.Text = "Mensajes" + (messagesRequestCount > 0 ? string.Format(" ({0})", messagesRequestCount) : "");
                         // Sets visible notification bubble just in case it needed to be
 						//notification.Visible = friendRequestsCount + messagesRequestCount > 0;
-						//connect.Visible = !(LinkStatus == Status.Pending || LinkStatus == Status.Active);
+						LinkStatus = Status.Logged;
 
                     }
                     else
                     {
+
                         // Get user information
                         if (GlobalBS.GetUser(ref _user))
                         {
@@ -118,23 +119,27 @@ namespace CSM.Control
                                 {
                                     throw new WrongDataException("Lo sentimos pero ocurrió un error al recuperar el usuario");
                                 }
+
+
                             }
 
                             
                         }
                     }
+					btnLink.Visible = !(LinkStatus == Status.Pending || LinkStatus == Status.Active || LinkStatus == Status.Logged);
+					titPending.Visible = LinkStatus == Status.Pending && !(LinkStatus == Status.Logged);
 
                 }
                 catch (WrongDataException ex)
                 {
                     //Script register to show exception info
-					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"jsError('{0}');",ex.Message),true);
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"alertError('{0}');",ex.Message),true);
                     return;
                 }
                 catch (Exception ex)
                 {
                     //Script register to show exception info
-					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
                     Utilities.LogException(Path.GetFileName(Request.Path),
                                 MethodInfo.GetCurrentMethod().Name,
                                 ex);
@@ -170,7 +175,7 @@ namespace CSM.Control
                     string msg = "Su petición ha sido registrada con éxito. Cuando el usuario te acepte, te lo notificaremos.";
                     LinkStatus = Status.Pending;
                     //Script register to show exception info
-					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", "jsAlert('" + msg + "');$('.icon.noconnected').hide();", true);
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", "alertWarning('" + msg + "');$('.icon.noconnected').hide();", true);
                 }
                 else
                 {
@@ -180,13 +185,13 @@ namespace CSM.Control
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
+				ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"alertWarning('{0}');", ex.Message), true);
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				//ClientScript.RegisterStartupScript(this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+				//ClientScript.RegisterStartupScript(this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
                 Utilities.LogException(Path.GetFileName(Request.Path),
                             MethodInfo.GetCurrentMethod().Name,
                             ex);

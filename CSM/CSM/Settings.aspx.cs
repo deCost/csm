@@ -51,13 +51,13 @@ namespace CSM
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				//ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
+				//ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"alertWarning('{0}');", ex.Message), true);
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				//ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+				//ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
 
                 Utilities.LogException(Path.GetFileName(Request.Path),
                             MethodInfo.GetCurrentMethod().Name,
@@ -130,14 +130,14 @@ namespace CSM
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", string.Format(ex.Message,user.UserLogin)),true);
+				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"alertWarning('{0}');", string.Format(ex.Message,user.UserLogin)),true);
                 lblprofilemsg.Text = ex.Message;
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');",true);
+				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');",true);
 
                 lblprofilemsg.Text = "Lo sentimos pero ha ocurrido un error inexperado";
 
@@ -386,14 +386,14 @@ namespace CSM
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", string.Format(ex.Message, user.UserLogin)), true);
+				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"alertWarning('{0}');", string.Format(ex.Message, user.UserLogin)), true);
                 lblprofilemsg.Text = ex.Message;
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-                ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+                ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
 
                 lblprofilemsg.Text = "Lo sentimos pero ha ocurrido un error inexperado";
 

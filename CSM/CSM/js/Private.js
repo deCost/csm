@@ -57,7 +57,7 @@ function SendNewComment(obj) {
         },
         beforeSend: function (xhr) {
             if ($(obj).prev().val() == "") {
-                jsAlert("Por favor, introduce un texto");
+                alertWarning("Por favor, introduce un texto");
                 $('.preventDouble').enableSubmit();
                 return false;
             }
@@ -68,7 +68,7 @@ function SendNewComment(obj) {
             switch (data.substring(0, 2)) {
                 default:
                 case "0:":
-                    jsAlert(data.substring(2, data.length));
+                    alertWarning(data.substring(2, data.length));
                     break;
                 case "1:":
                     document.location.href = document.location.href;
@@ -79,15 +79,15 @@ function SendNewComment(obj) {
             $('.preventDouble').enableSubmit();
         },
         error: function () {
-            jsAlert("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.", { type: error });
+            alertWarning("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.", { type: error });
         },
         statusCode: {
             404: function () {
                 //TODO: Informar error 404
-                jsAlert("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.", { type: error });
+                alertWarning("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.", { type: error });
             },
             500: function () {
-                jsAlert("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.", { type: error });
+                alertWarning("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.", { type: error });
                 //TODO: Informar error 500
             }
         }
@@ -117,7 +117,7 @@ function UpdateLinkStatus(userto, status) {
             switch (data.substring(0, 2)) {
                 default:
                 case "0:":
-                    jsAlert(data.substring(2, data.length));
+                    alertWarning(data.substring(2, data.length));
                     break;
                 case "1:":
                     __doPostBack("udpListPanel", "");
@@ -129,15 +129,15 @@ function UpdateLinkStatus(userto, status) {
             $('.preventDouble').enableSubmit();
         },
         error: function () {
-            jsAlert("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
+            alertWarning("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
         },
         statusCode: {
             404: function () {
                 //TODO: Informar error 404
-                jsError("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.");
+                alertError("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.");
             },
             500: function () {
-                jsError("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
+                alertError("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
                 //TODO: Informar error 500
             }
         }
@@ -164,7 +164,7 @@ function ScheduleFinish(pschedid) {
             switch (data.substring(0, 2)) {
                 default:
                 case "0:":
-                    jsAlert(data.substring(2, data.length));
+                    alertWarning(data.substring(2, data.length));
                     break;
                 case "1:":
                     __doPostBack("udpSchedulePanel", "RefreshSchedule");
@@ -175,15 +175,15 @@ function ScheduleFinish(pschedid) {
             $('.preventDouble').enableSubmit();
         },
         error: function () {
-            jsAlert("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
+            alertWarning("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
         },
         statusCode: {
             404: function () {
                 //TODO: Informar error 404
-                jsError("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.");
+                alertError("Se ha solicitado una petición que no puede ser procesada por el servicio. Por favor, inténtelo más tarde.");
             },
             500: function () {
-                jsError("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
+                alertError("Se ha producido un error al procesar su petición. Por favor, inténtelo más tarde.");
                 //TODO: Informar error 500
             }
         }

@@ -21,6 +21,8 @@ namespace CSM.Master {
 		
 		protected CSM.Control.Footer footer;
 		
+		protected System.Web.UI.WebControls.HiddenField hdnuserid;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder scripts;
 	}
 }

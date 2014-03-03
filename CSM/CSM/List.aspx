@@ -9,6 +9,29 @@
 		<h1><asp:Literal runat="server" id="litTitle" /></h1>
 		<uc:sched runat="server" id="schedule" />
 		<uc:links runat="server" id="linkeds" />
+		<asp:Panel runat="server" id="pnlUsers">
+			<h1><asp:Label ID="lblContentList" runat="server"></asp:Label></h1>
+	        <asp:Repeater ID="rptList" Runat="server">
+	            <HeaderTemplate>
+
+	            </HeaderTemplate>
+	            <ItemTemplate>
+	                
+					    <img src="images/friend.png" /> 
+	                    <a href="Profile.aspx?user=<%# DataBinder.Eval(Container.DataItem, "UserIDReq") %>"><%# DataBinder.Eval(Container.DataItem, "Name") %></a>
+					    <div class="actions">
+	                        <%# ShowActions(((CSM.Classes.UserLink)Container.DataItem))%>
+	                        
+					    </div>
+				    
+	            </ItemTemplate>
+	            <FooterTemplate>
+	                
+	            </FooterTemplate>
+	        </asp:Repeater>
+	        <asp:Label ID="responseTxt" runat="server" Visible="false">No se encontraron resultados que coincidan con los parámetros solicitados</asp:Label>
+
+		</asp:Panel>
 	</div>
 	<div class="two columns">
 		<div class="trampabottle"></div>

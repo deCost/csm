@@ -114,6 +114,7 @@
     <Content Include="css\fondoamarillo.jpg" />
     <Content Include="css\trampaamarillo.jpg" />
     <Content Include="images\calendar.png" />
+    <Content Include="css\sprite.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

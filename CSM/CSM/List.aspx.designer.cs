@@ -21,6 +21,14 @@ namespace CSM {
 		
 		protected CSM.Control.UserLinkedList linkeds;
 		
+		protected System.Web.UI.WebControls.Panel pnlUsers;
+		
+		protected System.Web.UI.WebControls.Label lblContentList;
+		
+		protected System.Web.UI.WebControls.Repeater rptList;
+		
+		protected System.Web.UI.WebControls.Label responseTxt;
+		
 		protected System.Web.UI.WebControls.Content scriptsContent;
 		
 		public new CSM.Master.Private Master {

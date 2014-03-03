@@ -14,5 +14,13 @@ namespace CSM.Control {
 	public partial class Profile {
 		
 		protected System.Web.UI.WebControls.Image profileimage;
+		
+		protected System.Web.UI.WebControls.Panel connect;
+		
+		protected System.Web.UI.WebControls.LinkButton btnLink;
+		
+		protected System.Web.UI.HtmlControls.HtmlGenericControl titPending;
+		
+		protected System.Web.UI.WebControls.Literal txtfriendrequest;
 	}
 }

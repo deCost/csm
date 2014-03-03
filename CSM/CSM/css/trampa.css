@@ -10,9 +10,49 @@ body
 	clear:both;
 }
 
-h1
+h1,h2,h3,h4,h5
 {
 	color:#fff;
+}
+
+.message
+{
+	background: url(sprite.png) no-repeat -295px -8px;
+	width: 16px;
+	height:16px;
+	float: left;
+	margin: 0px 5px 0 0;
+	cursor: pointer;
+}
+
+.delete
+{
+	background: url(sprite.png) no-repeat -274px -8px;
+	width: 16px;
+	height:16px;
+	float: left;
+ 	margin: 0px 5px 0 0;
+ 	cursor: pointer;
+}
+
+.accept
+{
+	background: url(sprite.png) no-repeat -319px -8px;
+	width: 16px;
+	height:16px;
+	float: left;
+ 	margin: 0px 5px 0 0;
+ 	cursor: pointer;
+}
+
+.add
+{
+	background: url(sprite.png) no-repeat -341px -8px;
+	width: 16px;
+	height:16px;
+	float: left;
+ 	margin: 0px 5px 0 0;
+ 	cursor: pointer;
 }
 
 .hidden

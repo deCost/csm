@@ -20,18 +20,18 @@ namespace CSM.Master
                 if (!isLoggedSession(ref user) )
                 {
                     //Script register to restore button functionality and show any issue or message
-					ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero su sesión ha caducado');", true);
+					ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"alertError('Lo sentimos pero su sesión ha caducado');", true);
                     return;
                 }
 
-				//hdnuserid.Value = user.UserID.ToString();
+				hdnuserid.Value = user.UserID.ToString();
 				//ucmyprofile.ProfileUser = ucmylinks.ProfileUser = ucpicslide.ProfileUser = user;
 				//ucmyprofile.isMyProfile = ucmylinks.isMyProfile = ucpicslide.isMyProfile = true;
             }
             catch (WrongDataException ex)
             {
                 //Script register to restore button functionality and show any issue or message
-				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"jsError('{0}');", ex.Message), true);
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"alertError('{0}');", ex.Message), true);
                 return;
             }
             catch (Exception ex)
@@ -39,7 +39,7 @@ namespace CSM.Master
                 Utilities.LogException("AjaxHandler.ashx",
                            MethodInfo.GetCurrentMethod().Name, ex);
                 //Script register to restore button functionality and show any issue or message
-				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ocurrió un error inexperado');", true);
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"alertError('Lo sentimos pero ocurrió un error inexperado');", true);
                 return;
             }
         }

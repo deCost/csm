@@ -43,6 +43,7 @@
 			<asp:ContentPlaceHolder ID="bodyContent" runat="server"></asp:ContentPlaceHolder>
         </div>
 		<uc:footer ID="footer" runat="server" />
+        <asp:HiddenField ID="hdnuserid" ClientIDMode="Static" runat="server" />
 	</div>
 </div><!-- container -->
 </form>
