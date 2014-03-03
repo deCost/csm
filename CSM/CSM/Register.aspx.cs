@@ -97,7 +97,7 @@ namespace CSM
             }
 
             //Script register to restore button functionality and show any issue or message
-			ClientScript.RegisterStartupScript(this.GetType(), "showMsg", @"$('.registerform .msg').show();$('.preventDouble').enableSubmit();");
+			ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"$('.registerform .msg').show();$('.preventDouble').enableSubmit();",true);
         }
 
         /// <summary>

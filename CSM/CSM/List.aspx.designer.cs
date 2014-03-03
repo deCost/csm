@@ -15,6 +15,8 @@ namespace CSM {
 		
 		protected System.Web.UI.WebControls.Content bodyContentContent;
 		
+		protected System.Web.UI.WebControls.Literal litTitle;
+		
 		protected CSM.Control.UserScheduleList schedule;
 		
 		protected CSM.Control.UserLinkedList linkeds;

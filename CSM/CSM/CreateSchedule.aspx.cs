@@ -20,7 +20,7 @@ namespace CSM
         {
             Private privateFunctions = new Private();
             User user = new User();
-            List<Rule> rules = new List<Rule>();
+            
             try
             {
 
@@ -76,13 +76,13 @@ namespace CSM
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				ClientScript.RegisterStartupScript(this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message));
+				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message),true);
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				ClientScript.RegisterStartupScript(this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');");
+				ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');",true);
 
                 Utilities.LogException(Path.GetFileName(Request.Path),
                             MethodInfo.GetCurrentMethod().Name,
@@ -112,9 +112,14 @@ namespace CSM
                     SchedTypeID = Utilities.GetScheduleType(int.Parse(drpType.SelectedValue)),
                     UserID= user.UserID,
                     SchedDate = dt,
-					Friends = chkUserLinked.Items.Cast<ListItem>().Where(n => n.Selected).Select(n => n.Value).ToList(),
-					SchedBooking = int.Parse(bookinginput.Text)
+					Friends = chkUserLinked.Items.Cast<ListItem>().Where(n => n.Selected).Select(n => n.Value).ToList()
                 };
+
+				try{
+					schd.SchedBooking = int.Parse(bookinginput.Text);
+				}catch{
+				}
+
 
                 if (GlobalBS.InsertNewSchedule(ref schd))
                 {

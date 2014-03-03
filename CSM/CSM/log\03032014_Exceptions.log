@@ -1,0 +1,60 @@
+03/03/02014 08:10#Error occured from DefaultDL[ProcessLoginForm] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:10#Error occured from GlobalDL[UpdateUserStatus] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:10#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 0, Status: 0 
+ Stacktrace:
+03/03/02014 08:10#Error occured from Default.aspx[btnLogin_Click] | Error message: Petición de Login:
+User:ruti
+No ha sido posible completar el login 
+ Stacktrace:
+03/03/02014 08:11#Error occured from DefaultDL[ProcessLoginForm] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:11#Error occured from GlobalDL[UpdateUserStatus] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:11#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 0, Status: 0 
+ Stacktrace:
+03/03/02014 08:11#Error occured from Default.aspx[btnLogin_Click] | Error message: Petición de Login:
+User:ruti
+No ha sido posible completar el login 
+ Stacktrace:
+03/03/02014 08:11#Error occured from DefaultDL[ProcessLoginForm] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:11#Error occured from GlobalDL[UpdateUserStatus] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 08:11#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 0, Status: 0 
+ Stacktrace:
+03/03/02014 08:11#Error occured from Default.aspx[btnLogin_Click] | Error message: Petición de Login:
+User:ruti
+No ha sido posible completar el login 
+ Stacktrace:
+03/03/02014 09:52#Error occured from DefaultDL[ProcessLoginForm] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 09:52#Error occured from GlobalDL[UpdateUserStatus] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 09:52#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 0, Status: 0 
+ Stacktrace:
+03/03/02014 09:52#Error occured from Default.aspx[btnLogin_Click] | Error message: Petición de Login:
+User:ruti
+No ha sido posible completar el login 
+ Stacktrace:
+03/03/02014 09:52#Error occured from DefaultDL[ProcessLoginForm] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 09:52#Error occured from GlobalDL[UpdateUserStatus] | Error message: An exception was thrown by the type initializer for CSM.DataLayer.SSQLMgr 
+ Stacktrace:
+03/03/02014 09:52#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 0, Status: 0 
+ Stacktrace:
+03/03/02014 09:52#Error occured from Default.aspx[btnLogin_Click] | Error message: Petición de Login:
+User:ruti
+No ha sido posible completar el login 
+ Stacktrace:

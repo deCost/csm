@@ -73,8 +73,6 @@ namespace TFC.NET
                 !string.IsNullOrEmpty(context.Request["picid"]) && Decimal.TryParse(context.Request["picid"], out picid) &&
                 !string.IsNullOrEmpty(context.Request["albumid"]) && Decimal.TryParse(context.Request["albumid"], out albumid))
             {
-                StringBuilder msg = new StringBuilder();
-
                 Picture pic = new Picture() { PicID = picid, AlbumID = albumid };
 
                 if (GlobalBS.DeleteImage(ref pic))
@@ -114,8 +112,6 @@ namespace TFC.NET
             if (privateFunctions.isLoggedSession(ref user) &&
                 !string.IsNullOrEmpty(context.Request["schedid"]) && Decimal.TryParse(context.Request["schedid"], out schedid))
             {
-                StringBuilder msg = new StringBuilder();
-
                 if (GlobalBS.FinishSchedule(new Schedule() { SchedID = schedid }, user))
                 {
                     context.Response.Write("1: Su tarea/evento ha sido finalizado");
@@ -184,9 +180,6 @@ namespace TFC.NET
                 !string.IsNullOrEmpty(context.Request["userto"]) && Decimal.TryParse(context.Request["userto"], out userto) &&
                 !string.IsNullOrEmpty(context.Request["status"]) && int.TryParse(context.Request["status"], out status))
             {
-                StringBuilder msg = new StringBuilder();
-
-
                 if (status == (int)Status.Pending)
                 {
 
@@ -233,7 +226,7 @@ namespace TFC.NET
             {
                 StringBuilder msg = new StringBuilder();
 
-                if (_validateCommentForm(new Publication() { PublDesc = context.Request["comment"] }, ref msg))
+				if (_validateCommentForm(new Publication() { PublDesc = HttpUtility.UrlDecode(context.Request["comment"]) }, ref msg))
                 {
 
                     if (GlobalBS.InsertNewPublication(new User() { UserID = Decimal.Parse(context.Request["userid"]) },

@@ -1,0 +1,11 @@
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/CSM.Common.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/CSM.Common.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/CSM.DataAccess.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/CSM.DataAccess.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/obj/Release/CSM.DataAccess.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/obj/Release/CSM.DataAccess.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/mysql.web.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/mysql.data.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/mysql.data.entity.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Release/mysql.data.entity.EF6.dll

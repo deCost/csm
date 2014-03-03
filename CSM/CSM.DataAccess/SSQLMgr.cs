@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Configuration;
-using MySql.Data.MySqlClient;
+using System.Data.SqlClient;
 using System.Data;
+using System.Configuration;
+using CSM.DataAccess;
 
 namespace CSM.DataLayer
 {
-	public class SQLMgr
+	public class SSQLMgr : iSQLMgr
     {
         #region Private Member Variables
-		private static string connectionString = ConfigurationManager.AppSettings["ApplicationDB"].ToString();
-		private MySqlTransaction _transaction;       
+        private static string connectionString = ConfigurationManager.ConnectionStrings["ApplicationDB"].ToString();
+        private SqlTransaction _transaction;       
         #endregion
 
         #region Public Properties
-		public MySqlTransaction Transaction
+        public SqlTransaction Transaction
         {
             get { return _transaction; }
             set { _transaction = value; }
@@ -24,9 +25,9 @@ namespace CSM.DataLayer
         #endregion
 
         #region Public Methods
-		public MySqlConnection CreateConnection()
+        public SqlConnection CreateConnection()
         {
-			MySqlConnection connection = new MySqlConnection(connectionString);
+            SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             return connection;
         }        
@@ -40,12 +41,12 @@ namespace CSM.DataLayer
         /// <returns></returns>
         static public DataTable ExecuteQuery(string storedProcedureName, string tableName, Array parameters)
         {
-            MySqlConnection connection = new MySqlConnection(connectionString);
-			MySqlDataAdapter adapter = new MySqlDataAdapter();
-			adapter.SelectCommand = new MySqlCommand(storedProcedureName, connection);
-            foreach (MySqlParameter param in parameters)
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = new SqlCommand(storedProcedureName, connection);
+            foreach (SqlParameter param in parameters)
             {
-                adapter.SelectCommand.Parameters.Add(param);
+				adapter.SelectCommand.Parameters.Add(param);
             }
 
             adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -63,12 +64,12 @@ namespace CSM.DataLayer
         /// <returns></returns>
         static public DataSet ExecuteQuery(string storedProcedureName, Array parameters)
         {
-            MySqlConnection connection = new MySqlConnection(connectionString);
-			MySqlDataAdapter adapter = new MySqlDataAdapter();
-			adapter.SelectCommand = new MySqlCommand(storedProcedureName, connection);
-            foreach (MySqlParameter param in parameters)
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = new SqlCommand(storedProcedureName, connection);
+            foreach (SqlParameter param in parameters)
             {
-                adapter.SelectCommand.Parameters.Add(param);
+				adapter.SelectCommand.Parameters.Add(param);
             }
 
             adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -85,10 +86,10 @@ namespace CSM.DataLayer
         /// <returns></returns>
         static public int ExecuteNonQuery(string storedProcedureName, Array parameters)
         {
-            MySqlConnection connection = new MySqlConnection(connectionString);
-			MySqlCommand command = new MySqlCommand(storedProcedureName, connection);
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlCommand command = new SqlCommand(storedProcedureName, connection);
             command.CommandType = CommandType.StoredProcedure;
-            foreach (MySqlParameter param in parameters)
+            foreach (SqlParameter param in parameters)
             {
                 command.Parameters.Add(param);
             }
@@ -108,10 +109,10 @@ namespace CSM.DataLayer
         /// <returns>rowId</returns>
         static public int ExecuteScaler(string storedProcedureName, Array parameters)
         {
-            MySqlConnection connection = new MySqlConnection(connectionString);
-			MySqlCommand command = new MySqlCommand(storedProcedureName, connection);
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlCommand command = new SqlCommand(storedProcedureName, connection);
             command.CommandType = CommandType.StoredProcedure;
-            foreach (MySqlParameter param in parameters)
+            foreach (SqlParameter param in parameters)
             {
                 command.Parameters.Add(param);
             }
@@ -137,13 +138,13 @@ namespace CSM.DataLayer
         /// <param name="parameters"></param>
         /// <param name="connection"></param>
         /// <returns>rowId</returns>
-        public int ExecuteScaler(string storedProcedureName, Array parameters, MySqlConnection connection)
+        public int ExecuteScaler(string storedProcedureName, Array parameters, SqlConnection connection)
         {
-			MySqlCommand command = new MySqlCommand(storedProcedureName, connection, Transaction);
+            SqlCommand command = new SqlCommand(storedProcedureName, connection, Transaction);
             command.CommandType = CommandType.StoredProcedure;
             //command.Connection = connection;
             //command.Transaction = Transaction;
-            foreach (MySqlParameter param in parameters)
+            foreach (SqlParameter param in parameters)
             {
                 command.Parameters.Add(param);
             }
@@ -159,12 +160,13 @@ namespace CSM.DataLayer
         /// <param name="parameters"></param>
         /// <param name="connection"></param>
         /// <returns>DataTable</returns>
-        public DataTable ExecuteQuery(string storedProcedureName, string tableName, Array parameters, MySqlConnection connection)
+        public DataTable ExecuteQuery(string storedProcedureName, string tableName, Array parameters, SqlConnection connection)
         {
-            MySqlDataAdapter adapter = new MySqlDataAdapter();
-			adapter.SelectCommand = new MySqlCommand(storedProcedureName, connection,Transaction);
-            foreach (MySqlParameter param in parameters)
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = new SqlCommand(storedProcedureName, connection,Transaction);
+            foreach (SqlParameter param in parameters)
             {
+				
                 adapter.SelectCommand.Parameters.Add(param);
             }
 
@@ -181,14 +183,15 @@ namespace CSM.DataLayer
         /// <param name="parameters"></param>
         /// <param name="connection"></param>
         /// <returns></returns>
-        public int ExecuteNonQuery(string storedProcedureName, Array parameters, MySqlConnection connection)
+        public int ExecuteNonQuery(string storedProcedureName, Array parameters, SqlConnection connection)
         {
-			MySqlCommand command = new MySqlCommand(storedProcedureName, connection, Transaction);
+            SqlCommand command = new SqlCommand(storedProcedureName, connection, Transaction);
             command.CommandType = CommandType.StoredProcedure;
             //command.Connection = connection;
             //command.Transaction = Transaction;
-            foreach (MySqlParameter param in parameters)
+            foreach (SqlParameter param in parameters)
             {
+				
                 command.Parameters.Add(param);
             }
             int affectedRows = command.ExecuteNonQuery();
@@ -197,58 +200,58 @@ namespace CSM.DataLayer
         #endregion
 
         #region SQL Parameters
-		static public MySqlParameter CreateIntParameter(string name, int value)
+        static public SqlParameter CreateIntParameter(string name, int value)
         {
-			MySqlParameter param = new MySqlParameter(name, SqlDbType.Int);
+            SqlParameter param = new SqlParameter(name, SqlDbType.Int);
             param.Value = value;
             return param;
         }
-        static public MySqlParameter CreateStringParameter(string name, string value)
+        static public SqlParameter CreateStringParameter(string name, string value)
         {
-            MySqlParameter param = new MySqlParameter(name, SqlDbType.NVarChar);
+            SqlParameter param = new SqlParameter(name, SqlDbType.NVarChar);
             param.Value = value;
             return param;
         }
-        static public MySqlParameter CreateDateTimeParameter(string name, DateTime value)
+        static public SqlParameter CreateDateTimeParameter(string name, DateTime value)
         {
             if (value == DateTime.MinValue)
             {
-                MySqlParameter param = new MySqlParameter(name, SqlDbType.DateTime);
+                SqlParameter param = new SqlParameter(name, SqlDbType.DateTime);
                 param.Value = DBNull.Value;
                 return param;
             }
             else
             {
-                MySqlParameter param = new MySqlParameter(name, SqlDbType.DateTime);
+                SqlParameter param = new SqlParameter(name, SqlDbType.DateTime);
                 param.Value = value;
                 return param;
             }
         }
 
-        static public MySqlParameter CreateLongParameter(string name, long value)
+        static public SqlParameter CreateLongParameter(string name, long value)
         {
-            MySqlParameter param = new MySqlParameter(name, SqlDbType.BigInt);
+            SqlParameter param = new SqlParameter(name, SqlDbType.BigInt);
             param.Value = value;
             return param;
         }
 
-        static public MySqlParameter CreateBoolParameter(string name, bool value)
+        static public SqlParameter CreateBoolParameter(string name, bool value)
         {
-            MySqlParameter param = new MySqlParameter(name, SqlDbType.Bit);
+            SqlParameter param = new SqlParameter(name, SqlDbType.Bit);
             param.Value = value;
             return param;
         }
 
-        static public MySqlParameter CreateByteParameter(string name, byte[] value)
+        static public SqlParameter CreateByteParameter(string name, byte[] value)
         {
-            MySqlParameter param = new MySqlParameter(name, SqlDbType.Image);
+            SqlParameter param = new SqlParameter(name, SqlDbType.Image);
             param.Value = value;
             return param;
         }
 
-        static public MySqlParameter GetLongOutputParameter(string name, long value)
+        static public SqlParameter GetLongOutputParameter(string name, long value)
         {
-            MySqlParameter param = new MySqlParameter(name, SqlDbType.BigInt);
+            SqlParameter param = new SqlParameter(name, SqlDbType.BigInt);
             param.Direction = ParameterDirection.Output;
             param.Value = value;
             return param;

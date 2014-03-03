@@ -7,11 +7,14 @@ using System.Reflection;
 using CSM.Classes;
 using MySql.Data.MySqlClient;
 using CSM;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace CSM.DataLayer
 {
     public class RegisterFormDL
     {
+		private static string dbType = ConfigurationManager.AppSettings ["DBType"];
 
         public static bool InsertRegisterForm(User user)
         {
@@ -24,17 +27,36 @@ namespace CSM.DataLayer
                 if (!exist && ok)
                 {
 
-                    List<MySqlParameter> parameters = new List<MySqlParameter>();
+					switch (dbType) {
+					case "MySQL":
+						List<MySqlParameter> mysql = new List<MySqlParameter>();
 
-                    parameters.Add(new MySqlParameter("puseraddress", user.UserAddress));
-                    parameters.Add(new MySqlParameter("puserbirth", user.UserBirth));
-                    parameters.Add(new MySqlParameter("puseremail", user.UserEmail));
-                    parameters.Add(new MySqlParameter("puserlogin", user.UserLogin));
-                    parameters.Add(new MySqlParameter("pusername", user.UserName));
-                    parameters.Add(new MySqlParameter("puserpass", user.UserPass));
-                    parameters.Add(new MySqlParameter("pusersurname", user.UserSurname));
-                    parameters.Add(new MySqlParameter("pstatus", (int)user.StatuID));
-                    ok = SQLMgr.ExecuteScaler("user_register", parameters.ToArray()) > 0;
+						mysql.Add(new MySqlParameter("puseraddress", user.UserAddress));
+						mysql.Add(new MySqlParameter("puserbirth", user.UserBirth));
+						mysql.Add(new MySqlParameter("puseremail", user.UserEmail));
+						mysql.Add(new MySqlParameter("puserlogin", user.UserLogin));
+						mysql.Add(new MySqlParameter("pusername", user.UserName));
+						mysql.Add(new MySqlParameter("puserpass", user.UserPass));
+						mysql.Add(new MySqlParameter("pusersurname", user.UserSurname));
+						mysql.Add(new MySqlParameter("pstatus", (int)user.StatuID));
+						ok = MySQLMgr.ExecuteScaler("user_register", mysql.ToArray()) > 0;		
+						break;
+					case "SSQL":
+						List<SqlParameter> sql = new List<SqlParameter>();
+
+						sql.Add(new SqlParameter("@useraddress", user.UserAddress));
+						sql.Add(new SqlParameter("@userbirth", user.UserBirth));
+						sql.Add(new SqlParameter("@useremail", user.UserEmail));
+						sql.Add(new SqlParameter("@userlogin", user.UserLogin));
+						sql.Add(new SqlParameter("@username", user.UserName));
+						sql.Add(new SqlParameter("@userpass", user.UserPass));
+						sql.Add(new SqlParameter("@usersurname", user.UserSurname));
+						sql.Add(new SqlParameter("@status", (int)user.StatuID));
+						ok = SSQLMgr.ExecuteScaler("user_register", sql.ToArray()) > 0;		
+						break;
+					}
+
+                    
                 }
                 else
                 {
@@ -76,13 +98,27 @@ namespace CSM.DataLayer
         public static bool CheckUserExists(User user, ref bool exists)
         {
             bool ok = true;
+			int res = 0;
             try
             {
-                List<MySqlParameter> parameters = new List<MySqlParameter>();
+				switch (dbType) {
+				case "MySQL":
+					List<MySqlParameter> mysql = new List<MySqlParameter>();
 
-                parameters.Add(new MySqlParameter("puseremail", user.UserEmail));
-                parameters.Add(new MySqlParameter("puserlogin", user.UserLogin));
-                switch (SQLMgr.ExecuteScaler("user_exists", parameters.ToArray()))
+					mysql.Add(new MySqlParameter("puseremail", user.UserEmail));
+					mysql.Add(new MySqlParameter("puserlogin", user.UserLogin));
+					res = MySQLMgr.ExecuteScaler("user_exists", mysql.ToArray());
+					break;
+				case "SSQL":
+					List<SqlParameter> sql = new List<SqlParameter>();
+
+					sql.Add(new SqlParameter("@useremail", user.UserEmail));
+					sql.Add(new SqlParameter("@userlogin", user.UserLogin));
+					res = SSQLMgr.ExecuteScaler("user_exists", sql.ToArray());		
+					break;
+				}
+
+				switch (res)
                 {
                     case 0:
                         exists = false;

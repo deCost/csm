@@ -23,15 +23,18 @@ namespace CSM
 			if (!string.IsNullOrWhiteSpace (Request ["fn"])) {
 				switch (Request ["fn"]) {
 				case "e":
+					litTitle.Text = "3, 2, 1... Impro!";
 					schedule.lstSchedToShow.Add (ScheduleType.Event);
 					schedule.lstSchedToShow.Add (ScheduleType.Students);
 					linkeds.Visible = false;
 					break;
 				case "c":
+					litTitle.Text = "Impro Training";
 					schedule.lstSchedToShow.Add (ScheduleType.Task);
 					linkeds.Visible = false;
 					break;
 				case "a":
+					litTitle.Text = "Compimpros";
 					schedule.Visible = false;
 					linkeds.ProfileUser = user;
 					linkeds.isMyProfile = true;

@@ -20,3 +20,7 @@
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/MySql.Data.Entity.EF6.dll
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/CSM.Common.dll
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/CSM.Common.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/mysql.web.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/mysql.data.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/mysql.data.entity.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/bin/Debug/mysql.data.entity.EF6.dll

@@ -61,7 +61,7 @@ namespace CSM.Control
                 // By using private.Master public mehods, we don't need to create a utilities class for website
                 Private privateFunctions = new Private();
                 int friendRequestsCount = 0;
-                int messagesRequestCount = 0;
+                
                 try
                 {
                     if (!string.IsNullOrEmpty(_user.ProfileImage))
@@ -128,13 +128,13 @@ namespace CSM.Control
                 catch (WrongDataException ex)
                 {
                     //Script register to show exception info
-					//ClientScriptManager.RegisterStartupScript(this.GetType(), "showMsg", string.Format(@"jsError('{0}');",ex.Message));
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"jsError('{0}');",ex.Message),true);
                     return;
                 }
                 catch (Exception ex)
                 {
                     //Script register to show exception info
-					//ClientScriptManager.RegisterStartupScript(this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
                     Utilities.LogException(Path.GetFileName(Request.Path),
                                 MethodInfo.GetCurrentMethod().Name,
                                 ex);
@@ -170,7 +170,7 @@ namespace CSM.Control
                     string msg = "Su petición ha sido registrada con éxito. Cuando el usuario te acepte, te lo notificaremos.";
                     LinkStatus = Status.Pending;
                     //Script register to show exception info
-					//ClientScript.RegisterStartupScript(this.GetType(), "showMsg", "jsAlert('" + msg + "');$('.icon.noconnected').hide();", true);
+					ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", "jsAlert('" + msg + "');$('.icon.noconnected').hide();", true);
                 }
                 else
                 {
@@ -180,7 +180,7 @@ namespace CSM.Control
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				//ClientScript.RegisterStartupScript(this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
+				ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
                 return;
             }
             catch (Exception ex)

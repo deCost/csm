@@ -51,7 +51,7 @@ function SendNewComment(obj) {
         data: {
             fn: "NewComment",
             userid: $("#hdnuserid").val(),
-            comment: $(obj).prev().val(),
+            comment: encodeURI($(obj).prev().val()),
             ruleid: $(obj).next().val(),
             publid: $(obj).next().next().val()
         },

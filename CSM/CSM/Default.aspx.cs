@@ -43,11 +43,8 @@ namespace CSM
 					if (DefaultBS.ProcessLoginForm(user))
 					{
 						// Login active and sets into sessions keeper
-						Global.sessionsTable.Insert(user.SessionID, 
-							user,
-							null,
-							System.Web.Caching.Cache.NoAbsoluteExpiration, 
-							TimeSpan.FromMinutes(20));
+						Global.sessionsTable.Add(user.SessionID, 
+							user);
 						//Saves on cookies the session
 						Context.Response.Cookies.Add(new HttpCookie("socialMe") { 
 							Expires = DateTime.Now.AddDays(1),
@@ -81,7 +78,7 @@ namespace CSM
 
 
 			//Script register to restore button functionality and show any issue or message
-			ClientScript.RegisterStartupScript(this.GetType(), "showMsg", @"$('.loginform .msg').show();");
+			ScriptManager.RegisterStartupScript(this.Page,this.GetType(), "showMsg", @"$('.loginform .msg').show();",true);
 		}
 
 		/// <summary>

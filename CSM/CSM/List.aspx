@@ -6,6 +6,7 @@
 
 <asp:Content ContentPlaceHolderID="bodyContent" ID="bodyContentContent" runat="server">
 	<div class="eleven columns">
+		<h1><asp:Literal runat="server" id="litTitle" /></h1>
 		<uc:sched runat="server" id="schedule" />
 		<uc:links runat="server" id="linkeds" />
 	</div>

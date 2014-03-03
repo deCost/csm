@@ -30,28 +30,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="MySql.Web">
-      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.web.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data.Entity">
-      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data.Entity.EF6">
-      <HintPath>..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.EF6.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.web.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\..\..\..\..\ProjectsNET\ClassroomStudentsManager\CSM\ClassroomStudentsManager.DataAccess\ExternalReferences\mysql.data.entity.EF6.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DefaultDL.cs" />
     <Compile Include="GlobalDL.cs" />
     <Compile Include="RegisterFormDL.cs" />
-    <Compile Include="SQLMgr.cs" />
+    <Compile Include="MySQLMgr.cs" />
+    <Compile Include="iSQLMgr.cs" />
+    <Compile Include="SSQLMgr.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

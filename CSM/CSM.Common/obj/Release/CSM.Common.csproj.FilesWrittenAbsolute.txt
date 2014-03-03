@@ -1,0 +1,5 @@
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.Common/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.Common/bin/Release/CSM.Common.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.Common/bin/Release/CSM.Common.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.Common/obj/Release/CSM.Common.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.Common/obj/Release/CSM.Common.dll.mdb

@@ -1,0 +1,9 @@
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataManager.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataManager.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Release/CSM.DataManager.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/obj/Release/CSM.DataManager.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.Common.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.Common.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataAccess.dll
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataAccess.dll.mdb

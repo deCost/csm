@@ -77,14 +77,14 @@ namespace CSM.Control
                 catch (WrongDataException ex)
                 {
                     //Script register to show exception info
-					//ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
+					ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
                     responseTxt.Text = ex.Message;
                     return;
                 }
                 catch (Exception ex)
                 {
                     //Script register to show exception info
-					//ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+					ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
 
                     responseTxt.Text = "Lo sentimos pero ha ocurrido un error inexperado";
 
@@ -133,7 +133,7 @@ namespace CSM.Control
 						//txtimage.Text = "";
                         txtpublication.Text = "";
 
-                        //ScriptManager.RegisterStartupScript(this, this.GetType(), "hideFancybox", @"setTimeout(function(){$.fancybox.close();document.location.refresh();},5000)", true);
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "hideFancybox", @"setTimeout(function(){$.fancybox.close();document.location.refresh();},5000)", true);
                         Session.Remove(user.SessionID + "_pubimg");
 
                         if (user.UserID != UserTo)
@@ -154,15 +154,15 @@ namespace CSM.Control
             catch (WrongDataException ex)
             {
                 //Script register to show exception info
-				//ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", string.Format(@"jsAlert('{0}');", ex.Message), true);
                 responseTxt.Text = ex.Message;
                 return;
             }
             catch (Exception ex)
             {
                 //Script register to show exception info
-				//ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
-
+				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"jsError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+			
                 responseTxt.Text = "Lo sentimos pero ha ocurrido un error inexperado";
                 
                 Utilities.LogException(Path.GetFileName(Request.Path),

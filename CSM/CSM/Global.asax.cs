@@ -7,16 +7,15 @@ namespace CSM
 	using System.Collections;
 	using System.ComponentModel;
 	using System.Web;
-	using System.Web.SessionState;
 
 	public class Global : System.Web.HttpApplication
 	{
-		public static Cache sessionsTable {get;set;}
+		public static Hashtable sessionsTable {get;set;}
 
 		protected void Application_Start (Object sender, EventArgs e)
 		{
 
-			sessionsTable = new Cache ();
+			sessionsTable = new Hashtable ();
 
 		}
 
