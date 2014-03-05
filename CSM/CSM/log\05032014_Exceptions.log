@@ -1,0 +1,152 @@
+05/03/02014 08:42#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 08:42#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:01#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:01#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:12#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:12#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:18#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:18#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:19#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:19#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:20#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:20#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 09:22#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:22#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:22#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:22#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 09:38#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:38#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 09:39#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+05/03/02014 09:44#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:44#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 09:54#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 09:54#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:00#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:00#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:01#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:01#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 10:06#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:06#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:07#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+05/03/02014 10:15#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:15#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:16#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+05/03/02014 10:24#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:24#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:24#Error occured from Home.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:
+05/03/02014 10:36#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:36#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:39#Error occured from GlobalDL[GetRulesFromUser] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:39#Error occured from GlobalDL[GetUserPublications] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:39#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:39#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetRulesFromUser] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetUserPublications] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetRulesFromUser] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetUserPublications] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetUserPublications] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:44#Error occured from GlobalDL[GetUserPublications] | Error message: Object reference not set to an instance of an object 
+ Stacktrace:
+05/03/02014 10:45#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 10:45#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+05/03/02014 11:54#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 11:54#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 11:55#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+05/03/02014 11:55#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:
+05/03/02014 11:56#Error occured from List.aspx[lnkLogout_Click] | Error message: Thread was being aborted 
+ Stacktrace:

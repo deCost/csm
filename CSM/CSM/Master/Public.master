@@ -39,7 +39,7 @@
 		<div class="sixteen columns">
 			<div class="four columns relleno"></div>
 			<div class="seven columns textcenter">
-				<img src="images/logo.jpg" alt="Trampa Teatre" />
+				<asp:HyperLink runat="server" id="logoCabecera" ImageUrl="~/images/logo.jpg" NavigateUrl="~/" AlternateText="Trampa Teatre" />
 				<asp:ContentPlaceHolder ID="bodyContent" runat="server"></asp:ContentPlaceHolder>
         	</div>
 	 		<div class="four columns relleno"></div>

@@ -6,18 +6,23 @@
 		<div class="compositionMini middle fifteen columns">
 			<asp:LinkButton runat="server" id="lknLogout" OnClick="lnkLogout_Click" CssClass="logoMini right">
 				Logout
-				<img src="images/trampa.jpg" width="25" height="25" />
 			</asp:LinkButton>
 			<asp:HyperLink runat="server" id="btnHome" NavigateUrl="~/Home.aspx" CssClass="logoMini">
 				Home 
 				<img src="images/logo35.jpg" width="25" height="25" />
 			</asp:HyperLink>
-			<asp:HyperLink runat="server" id="btnList" NavigateUrl="~/List.aspx?fn=e">Eventos</asp:HyperLink> | 
-			<asp:HyperLink runat="server" id="btnClassroom" NavigateUrl="~/List.aspx?fn=c">Clases</asp:HyperLink> |
-			<asp:HyperLink runat="server" id="btnSettings" NavigateUrl="~/Settings.aspx">Mis datos</asp:HyperLink> | 
-			<asp:HyperLink runat="server" id="btnFriends" NavigateUrl="~/List.aspx?fn=a">Mis amigos</asp:HyperLink> | 
-			<asp:HyperLink runat="server" id="btnSchedule" NavigateUrl="~/CreateSchedule.aspx">Crear evento</asp:HyperLink> | 
+			
+			<asp:Repeater runat="server" id="rptMenu">
+				<ItemTemplate>
+					<asp:HyperLink runat="server" id="btnNavigate" CssClass="linkMenu" NavigateUrl='<%#Eval("Value")%>'><%#Eval("Key")%> | </asp:HyperLink> 
+				</ItemTemplate>
+			</asp:Repeater>
+
+
 		</div>
 		<div class="compositionMini right"></div>
 	</div>
 </div>
+<div class="clear"></div>
+<asp:DropDownList runat="server" id="drpMenu" ClientIDMode="Static" CssClass="sixteen columns" AutoPostBack="true" CausesValidation="false" OnSelectedIndexChanged="drpMenu_Change" />
+<div class="clear"></div>

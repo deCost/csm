@@ -15,6 +15,11 @@ h1,h2,h3,h4,h5
 	color:#fff;
 }
 
+#drpMenu
+{
+	display:none;
+}
+
 .message
 {
 	background: url(sprite.png) no-repeat -295px -8px;
@@ -297,9 +302,9 @@ h1,h2,h3,h4,h5
 
 .portfolio .image
 {
-	height:150px;
+	height:100px;
 	position:relative;
-	padding:75px 75px 35px;
+	padding:100px 95px 35px;
 }
 
 .profile .portfolio .image
@@ -309,10 +314,10 @@ h1,h2,h3,h4,h5
 
 .portfolio .image img
 {
-	-moz-transform:rotate(-10deg); 
-	-webkit-transform:rotate(-10deg);
-	height:150px;
-	width:150px;
+	-moz-transform:rotate(-15deg); 
+	-webkit-transform:rotate(-15deg);
+	height:100px;
+	width:100px;
 }
 
 .profile .portfolio .image img
@@ -481,7 +486,6 @@ h1,h2,h3,h4,h5
 .publications .friendbubble .content
 {
 	background-color: white;
-	width: 365px;
 	padding: 10px;
 	border: 1px solid #959292;
 	float: right;
@@ -491,7 +495,6 @@ h1,h2,h3,h4,h5
 .publications .mybubble .content
 {
 	background-color: white;
-	width: 365px;
 	padding: 10px;
 	border: 1px solid #959292;
 	float: left;
@@ -584,10 +587,10 @@ h1,h2,h3,h4,h5
 .publications .friendbubble .content .pub-comments .comm .commtxt,
 .publications .mybubble .content .pub-comments .comm .commtxt
 {
-	width:300px;
 	float:left;
 	margin-left:20px;
 	font-size:10px;
+	min-width:250px;
 }
 
 .publications .friendbubble .content .pub-comments .comm .commtxt input[type=text],
@@ -595,7 +598,8 @@ h1,h2,h3,h4,h5
 .publications .friendbubble .content .pub-comments .comm .commtxt textarea,
 .publications .mybubble .content .pub-comments .comm .commtxt textarea
 {
-	width:300px;
+	min-width:250px;
+	width:90%;
 	font-size:10px	
 }
 
@@ -626,9 +630,207 @@ h1,h2,h3,h4,h5
     border: 1px solid #959292;
 }
 
-/*Smartphone Portrait*/
-@media only screen and (max-width: 767px) {
-	
-	
-	
-}
+/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		#drpMenu
+		{
+			display:blocK;
+		}
+
+		.linkMenu
+		{
+			display:none;
+		}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		#drpMenu
+		{
+			display:blocK;
+		}
+
+		.lnkMenu
+		{
+			display:none;
+		}
+
+		.publications .friendbubble .content .pub-comments .comm .commimg, 
+		.publications .mybubble .content .pub-comments .comm .commimg
+		{
+			display:none;
+
+		}
+
+		.sprite
+		{
+			background: url(sprite.jpg);
+		}
+
+
+		.caja
+		{
+			background-position: -222px -285px;
+			width: 230px;
+			height: 100px; 
+			padding: 80px;
+			color: #fff;
+			text-align:left;
+		}
+
+		.cajalarga
+		{
+			background-position: -360px -585px;
+			width: 390px;
+			height: 390px;
+			color: #fff;
+			text-align: left;
+		}
+
+		.compositionMini.middle {
+			width: 375px !important;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		#drpMenu
+		{
+			display:blocK;
+		}
+
+		.lnkMenu
+		{
+			display:none;
+		}
+
+		.publications .friendbubble .content .pub-comments .comm .commimg, 
+		.publications .mybubble .content .pub-comments .comm .commimg
+		{
+			display:none;
+
+		}
+
+		.myprofile
+		{
+			background: url(myportfoliomini.jpg) no-repeat;
+			height: 320px;
+			width: 280px;
+		}
+
+		.profile
+		{
+			background: url(portfoliomini.jpg) bottom right no-repeat;
+			height: 320px;
+			width: 280px;
+		}
+
+
+
+		.portfolio
+		{
+			padding: 20px 0 0 40px;
+		}
+
+		.portfolio .image
+		{
+			height:75px;
+			position:relative;
+			padding:85px 55px 35px;
+		}
+
+		.profile .portfolio .image
+		{
+			height:75px;
+		}
+
+		.portfolio .image img
+		{
+			-moz-transform:rotate(-15deg); 
+			-webkit-transform:rotate(-15deg);
+			height:75px;
+			width:75px;
+		}
+
+		.profile .portfolio .image img
+		{
+			height:75px;
+			width:75px;
+		}
+
+		.portfolio h4,
+		.portfolio h2
+		{
+			font-size: 36px;
+			color:#fff;
+			/* CSS3 Box Shadow */
+			-moz-text-shadow:2px 2px 3px #333333;
+			-webkit-text-shadow:2px 2px 3px #333333;
+			text-shadow:2px 2px 3px #333333;
+
+		}
+
+		.portfolio h4
+		{
+			font-size: 16px;
+
+
+		}
+
+		.sprite
+		{
+			background: url(spritemini.jpg);
+		}
+
+		.tecla
+		{
+			background-position: -40px -320px;
+		}
+
+		.caja
+		{
+			background-position: -210px -260px;
+			width: 160px;
+			height: 70px;
+			padding: 55px 85px 110px;
+			color: #fff;
+			text-align: left;
+		}
+
+		.cajalarga
+		{
+			background-position: -332px -527px;
+			width: 390px;
+			height: 390px;
+			color: #fff;
+			text-align: left;
+		}
+
+		.compositionMini.middle {
+			width: 250px !important;
+		}
+
+		.registerform {
+			margin: 10px 10px;
+			padding: 30px 0 0 14px;
+		}
+
+		.registerform input
+		{
+			clear:both;
+		}
+	}

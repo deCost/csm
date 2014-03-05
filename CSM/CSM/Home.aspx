@@ -12,6 +12,7 @@
 	<uc:tools runat="server" id="tools" />
 </div>
 <div class="seven columns">
+	<h1>Tablón</h1>
 	<uc:bubbles runat="server" id="listBubbles" />
 </div>
 <asp:HiddenField ID="hdnuserid" ClientIDMode="Static" runat="server" />

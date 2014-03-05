@@ -9,7 +9,7 @@
 	            <div class="image">
 		            <img alt="" width="50" height="50" src="<%#((CSM.Classes.Publication)Container.DataItem).User.ProfileImage%>" class="pic" />
 	            </div>
-	            <div class="content">
+	            <div class="content six columns">
 		            <div class="leftarrow"></div>
 		            <a class="userlink" href="Profile.aspx?user=<%#((CSM.Classes.Publication)Container.DataItem).User.UserID%>"><%#((CSM.Classes.Publication)Container.DataItem).User.Name%></a>
 	                <span class="text">

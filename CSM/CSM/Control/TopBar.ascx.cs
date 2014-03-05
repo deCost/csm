@@ -31,6 +31,21 @@ namespace CSM.Control
                     
                 }
 
+				List<KeyValuePair<string,string>> lstLinks = new List<KeyValuePair<string, string>>();
+
+				lstLinks.Add(new KeyValuePair<string, string>("Menú",string.Empty));
+				lstLinks.Add(new KeyValuePair<string, string>("Eventos","~/List.aspx?fn=e"));
+				lstLinks.Add(new KeyValuePair<string, string>("Clases","~/List.aspx?fn=c"));
+				lstLinks.Add(new KeyValuePair<string, string>("Mis datos","~/Settings.aspx"));
+				lstLinks.Add(new KeyValuePair<string, string>("Amigos","~/List.aspx?fn=a"));
+				lstLinks.Add(new KeyValuePair<string, string>("Crear evento","~/CreateSchedule.aspx"));
+
+				drpMenu.DataSource = rptMenu.DataSource = lstLinks;
+				drpMenu.DataTextField = "Key";
+				drpMenu.DataValueField = "Value";
+
+				rptMenu.DataBind();
+				drpMenu.DataBind();
             }
             catch (WrongDataException ex)
             {
@@ -46,6 +61,13 @@ namespace CSM.Control
                             ex);
             }
         }
+
+		protected void drpMenu_Change(object sender, EventArgs e)
+		{
+			if (!string.IsNullOrWhiteSpace(drpMenu.SelectedValue)) {
+				Response.Redirect (drpMenu.SelectedValue,true);
+			}
+		}
 
         /// <summary>
         /// Event handler for logout

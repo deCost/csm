@@ -7,3 +7,4 @@
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.Common.dll.mdb
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataAccess.dll
 /Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/CSM.DataAccess.dll.mdb
+/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataManager/bin/Release/MySql.Data.dll

@@ -1,10 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSM/CreateSchedule.aspx.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSM/Home.aspx">
     <Files>
-      <File FileName="CSM/CreateSchedule.aspx" Line="28" Column="60" />
-      <File FileName="CSM/CreateSchedule.aspx.designer.cs" Line="1" Column="1" />
-      <File FileName="CSM/CreateSchedule.aspx.cs" Line="118" Column="1" />
+      <File FileName="CSM/Control/Profile.ascx" Line="36" Column="20" />
+      <File FileName="CSM/Control/Profile.ascx.cs" Line="1" Column="1" />
+      <File FileName="CSM/Profile.aspx.cs" Line="1" Column="1" />
+      <File FileName="CSM/AjaxHandler.ashx.cs" Line="237" Column="57" />
+      <File FileName="CSM/css/trampa.css" Line="800" Column="38" />
+      <File FileName="CSM/Control/TopBar.ascx" Line="27" Column="138" />
+      <File FileName="CSM/Control/TopBar.ascx.cs" Line="65" Column="32" />
+      <File FileName="CSM/Control/UserBubblesList.ascx" Line="12" Column="45" />
+      <File FileName="CSM/Master/Public.master" Line="42" Column="98" />
+      <File FileName="CSM/Control/Footer.ascx" Line="3" Column="78" />
+      <File FileName="CSM/css/lib/base.css" Line="215" Column="22" />
+      <File FileName="CSM/Home.aspx" Line="15" Column="12" />
+      <File FileName="CSM/Home.aspx.designer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

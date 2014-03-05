@@ -17,14 +17,10 @@ namespace CSM.Control {
 		
 		protected System.Web.UI.WebControls.HyperLink btnHome;
 		
-		protected System.Web.UI.WebControls.HyperLink btnList;
+		protected System.Web.UI.WebControls.Repeater rptMenu;
 		
-		protected System.Web.UI.WebControls.HyperLink btnClassroom;
+		protected System.Web.UI.WebControls.HyperLink btnNavigate;
 		
-		protected System.Web.UI.WebControls.HyperLink btnSettings;
-		
-		protected System.Web.UI.WebControls.HyperLink btnFriends;
-		
-		protected System.Web.UI.WebControls.HyperLink btnSchedule;
+		protected System.Web.UI.WebControls.DropDownList drpMenu;
 	}
 }

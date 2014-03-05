@@ -15,6 +15,8 @@ namespace CSM.Master {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
+		protected System.Web.UI.WebControls.HyperLink logoCabecera;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder bodyContent;
 		
 		protected CSM.Control.Footer footer;

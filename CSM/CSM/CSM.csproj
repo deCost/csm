@@ -105,8 +105,6 @@
     <Content Include="userData\1\costiProfile.jpg" />
     <Content Include="Profile.aspx" />
     <Content Include="images\trampa.jpg" />
-    <Content Include="css\myportfolio.jpg" />
-    <Content Include="css\portfolio.jpg" />
     <Content Include="Privacy.aspx" />
     <Content Include="CreateSchedule.aspx" />
     <Content Include="Settings.aspx" />
@@ -115,6 +113,11 @@
     <Content Include="css\trampaamarillo.jpg" />
     <Content Include="images\calendar.png" />
     <Content Include="css\sprite.png" />
+    <Content Include="css\spritemini.jpg" />
+    <Content Include="css\portfoliomini.jpg" />
+    <Content Include="css\myportfolio.jpg" />
+    <Content Include="css\portfolio.jpg" />
+    <Content Include="css\myportfoliomini.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
