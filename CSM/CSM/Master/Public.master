@@ -29,11 +29,6 @@
 </head>
 <body>
 <form id="form1" runat="server">
-  	<!-- Primary Page Layout
-	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
-
 <div class="container">
 	<div class="sixteen columns">
 		<div class="sixteen columns">

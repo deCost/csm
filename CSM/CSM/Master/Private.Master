@@ -31,11 +31,6 @@
 </head>
 <body>
 <form id="form1" runat="server">
-  	<!-- Primary Page Layout
-	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
-
 <div class="container">
 	<div class="sixteen columns">
 		<uc:topbar ID="topbar" runat="server" />
@@ -56,7 +51,10 @@
 <script src="js/lib/customAlerts.js"></script>
 <script src="js/lib/jquery.CSM.utilities.js"></script>
 <script src="js/Private.js"></script>
-	<asp:ContentPlaceHolder ID="scripts" runat="server"></asp:ContentPlaceHolder>
+	<asp:ContentPlaceHolder ID="scripts" runat="server">
+		
+		
+	</asp:ContentPlaceHolder>
 
 <!-- End Document
 ================================================== -->

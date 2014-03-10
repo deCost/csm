@@ -24,5 +24,5 @@
 	</div>
 </div>
 <div class="clear"></div>
-<asp:DropDownList runat="server" id="drpMenu" ClientIDMode="Static" CssClass="sixteen columns" AutoPostBack="true" CausesValidation="false" OnSelectedIndexChanged="drpMenu_Change" />
+<asp:DropDownList runat="server" id="drpMenu" ClientIDMode="Static" CssClass="sixteen columns" />
 <div class="clear"></div>

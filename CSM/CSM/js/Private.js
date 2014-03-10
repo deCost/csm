@@ -29,6 +29,11 @@ $(document).ready(function () {
     $(".ctcmessageinput").labeledInput({ label: "Mensaje" });
 
 	$("#txtpublication").labeledInput({ label: "Suelta tu improperio..." });
+				               
+    $("#drpMenu").bind("change",function(){ 
+    	document.location.href = $(this).val().replace("~/","");
+	});
+			    
 	
 });
 
