@@ -56,6 +56,11 @@
     <Compile Include="Classes\UserLink.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="WrongDataException.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Classes\Level.cs" />
+    <Compile Include="Classes\Group.cs" />
+    <Compile Include="Classes\Lesson.cs" />
+    <Compile Include="Classes\Subject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

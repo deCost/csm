@@ -231,6 +231,41 @@ h1,h2,h3,h4,h5
 	text-shadow: 3px 3px 3px #333;
 }
 
+.table-layout
+{
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	clear: both;
+}
+
+.table-layout li
+{
+	float: left;
+	padding: 3px 10px;
+	text-align: center;
+	list-style: none;
+}
+
+.table-layout li.spacer
+{
+	width:10px;
+}
+
+.table-layout li.name
+{
+	width: 90px;
+}
+
+.table-layout li.date
+{
+	width:60px;
+}
+
+.table-layout li.level
+{
+	width:50px;
+}
 /*Components*/
 .footer,
 .footer a

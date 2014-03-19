@@ -1,0 +1,6 @@
+20/03/02014 12:07#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+20/03/02014 12:07#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:

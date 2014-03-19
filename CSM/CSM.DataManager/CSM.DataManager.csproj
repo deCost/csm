@@ -37,6 +37,7 @@
     <Compile Include="DefaultBS.cs" />
     <Compile Include="GlobalBS.cs" />
     <Compile Include="RegisterFormBS.cs" />
+    <Compile Include="ClassRoomBS.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

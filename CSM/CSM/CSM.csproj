@@ -118,6 +118,7 @@
     <Content Include="css\myportfolio.jpg" />
     <Content Include="css\portfolio.jpg" />
     <Content Include="css\myportfoliomini.jpg" />
+    <Content Include="ProgramGenerator.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -233,6 +234,12 @@
     </Compile>
     <Compile Include="Settings.aspx.designer.cs">
       <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramGenerator.aspx.cs">
+      <DependentUpon>ProgramGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramGenerator.aspx.designer.cs">
+      <DependentUpon>ProgramGenerator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

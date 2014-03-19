@@ -54,6 +54,7 @@
     <Compile Include="MySQLMgr.cs" />
     <Compile Include="iSQLMgr.cs" />
     <Compile Include="SSQLMgr.cs" />
+    <Compile Include="ClassRoomDL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

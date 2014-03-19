@@ -1,0 +1,24 @@
+19/03/02014 11:19#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+19/03/02014 11:19#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+19/03/02014 11:20#Error occured from ClassRoomDL[GetPrograms] | Error message: Procedure or function '`program_select`' cannot be found in database '`csm`'. 
+ Stacktrace:
+19/03/02014 11:20#Error occured from ClassRoomDL[GetPrograms] | Error message: Procedure or function '`program_select`' cannot be found in database '`csm`'. 
+ Stacktrace:
+19/03/02014 11:21#Error occured from ClassRoomDL[GetPrograms] | Error message: Procedure or function '`program_select`' cannot be found in database '`csm`'. 
+ Stacktrace:
+19/03/02014 11:35#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+19/03/02014 11:35#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:
+19/03/02014 11:48#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+19/03/02014 11:48#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 1, Status: 1 
+ Stacktrace:

@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using CSM.Common;
 
 namespace CSM.Classes
 {
     public class User : ITicket
     {
+		public Group Group {
+			get;
+			set;
+		}
+
         private Decimal _userID;
 
         public Decimal UserID
