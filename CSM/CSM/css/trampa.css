@@ -411,6 +411,16 @@ h1,h2,h3,h4,h5
 	font-size:30px;
 }
 
+.studentsList
+{
+}
+
+.studentsList a,
+.studentsList a:hover
+{
+	color:#fff;
+}
+
 .publications
 {
 	color:#888;

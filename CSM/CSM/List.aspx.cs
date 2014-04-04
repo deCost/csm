@@ -50,13 +50,12 @@ namespace CSM
 				switch (Request ["fn"]) {
 				case "e":
 					litTitle.Text = "3, 2, 1... Impro!";
-					schedule.lstSchedToShow.Add (ScheduleType.Event);
-					schedule.lstSchedToShow.Add (ScheduleType.Students);
+					schedule.lstEventToShow.Add (EventType.MartesAlternos);
 					pnlUsers.Visible = linkeds.Visible = false;
 					break;
 				case "c":
 					litTitle.Text = "Impro Training";
-					schedule.lstSchedToShow.Add (ScheduleType.Task);
+					schedule.lstEventToShow.Add (EventType.Clase);
 					pnlUsers.Visible = linkeds.Visible = false;
 					break;
 				case "a":

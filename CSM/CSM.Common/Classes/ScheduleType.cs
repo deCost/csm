@@ -10,7 +10,13 @@ namespace CSM.Classes
         Task = 0,
         Event = 1,
 		Students = 2
-    }
+	}
+
+	public enum EventType
+	{
+		Clase = 1,
+		MartesAlternos = 2
+	}
 
     public class ScheduleClass
     {

@@ -15,6 +15,12 @@ namespace CSM.Control {
 		
 		protected System.Web.UI.WebControls.Panel pnlSchedule;
 		
+		protected System.Web.UI.WebControls.Repeater rptBooked;
+		
+		protected System.Web.UI.WebControls.Repeater rptStudents;
+		
+		protected System.Web.UI.WebControls.Button btnBookingNo;
+		
 		protected System.Web.UI.WebControls.Repeater rptSchedule;
 		
 		protected System.Web.UI.WebControls.Button btnBooking;

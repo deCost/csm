@@ -13,11 +13,40 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using CSM.Classes;
 using System.Web;
+using System.Web.Mvc;
 
 namespace CSM
 {
     public class Utilities
     {
+		public static void GetStudentsTotalPoints (ref List<StudentSchedule> students)
+		{
+			List<StudentSchedule> tmpstudents = students;
+
+			students.ForEach (delegate(StudentSchedule s) {
+
+				decimal totalSum = 0;
+
+				int total = tmpstudents.FindAll(s2 => s2.UserID == s.UserID).Count;
+				DateTime lastDate = tmpstudents.FindAll(s2 => s2.UserID == s.UserID).Max(s2 => s2.SchedDate);
+				decimal totalPoint = tmpstudents.FindAll(s2 => s2.UserID == s.UserID).Sum(s2 => s2.Points);
+				
+				if(total > 0)
+				{
+					totalSum += totalPoint;
+
+					totalSum += (decimal)((DateTime.Now.Subtract(lastDate).TotalDays / 14) * -50);
+
+					totalSum += total * 25;
+				}
+
+				s.TotalPoints = totalSum;
+
+			});
+		
+		}
+
+	
         /// <summary>
         /// Method to validate an string as an email
         /// </summary>

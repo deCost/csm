@@ -36,6 +36,16 @@
 	        	</FooterTemplate>
 	        </asp:Repeater>
 			</ul>
+			<ul class="eight columns table-layout">
+	        	<li class="spacer">
+        			&nbsp;
+    			</li>
+        		<li class="name"><asp:TextBox runat="server" id="txtPrgName" ClientIDMode="Static" /></li>
+        		<li class="name"><asp:TextBox runat="server" id="txtPrgDesc" ClientIDMode="Static" /></li>
+        		<li class="date"><asp:DropDownList runat="server" id="drpPrgLevel" /></li>
+        		<li class="level"><asp:Button runat="server" id="btnNewProgram" OnClick="btnNewProgram_Click" /></li>
+	        
+			</ul>
 	    </div>
 	    <div class="five columns">
 	        <h4>Clases del programa</h4>

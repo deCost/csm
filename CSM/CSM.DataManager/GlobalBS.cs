@@ -8,6 +8,7 @@ using System.Reflection;
 using CSM.Classes;
 using CSM;
 using CSM.DataLayer;
+using CSM.Common;
 
 
 namespace CMS.DataManager
@@ -139,6 +140,8 @@ namespace CMS.DataManager
 
             return ok;
         }
+
+
 
         /// <summary>
         /// Inserts a new Publication into system
@@ -377,6 +380,18 @@ namespace CMS.DataManager
             return ok;
         }
 
+		public static bool InsertNewStudentRequest (int eventID, decimal userID)
+		{
+			bool ok = true;
+
+			if (!GlobalDL.InsertNewStudentRequest(eventID,userID))
+			{
+				return false;
+			}
+				
+			return ok;
+		}
+
         /// <summary>
         /// Gets a list of different schedule types available
         /// </summary>
@@ -395,6 +410,25 @@ namespace CMS.DataManager
 
             return scheduleTypeList;
         }
+
+		/// <summary>
+		/// Gets a list of different schedule types available
+		/// </summary>
+		/// <param name="schd"></param>
+		/// <param name="userto"></param>
+		/// <returns></returns>
+		public static List<KeyValuePair<string, int>> GetEventsTypes()
+		{
+			int[] values = new int[2] { (int)EventType.Clase, (int)EventType.MartesAlternos};
+			string[] name = new string[2] { "Clase", "Martes Alternos"};
+			List<KeyValuePair<string, int>> lstEvents = new List<KeyValuePair<string, int>> ();
+			for (int i = 0; i < values.Length; i++ )
+			{
+				lstEvents.Add(new KeyValuePair<string, int>(name[i],values[i]));
+			}
+
+			return lstEvents;
+		}
 
         /// <summary>
         /// Gets a list of different privacy option types available
@@ -440,11 +474,11 @@ namespace CMS.DataManager
         /// <param name="user"></param>
         /// <param name="scheduleList"></param>
         /// <returns></returns>
-        public static bool GetScheduleFromUser(ref User user, ref List<Schedule> scheduleList)
+		public static bool GetScheduleFromUser(ref User user, ref List<Schedule> scheduleList, ref List<StudentSchedule> studentList)
         {
             bool ok = true;
 
-            if (!GlobalDL.GetScheduleFromUser(ref user, ref scheduleList))
+			if (!GlobalDL.GetScheduleFromUser(ref user, ref scheduleList, ref studentList))
             {
                 ok = false;
             }

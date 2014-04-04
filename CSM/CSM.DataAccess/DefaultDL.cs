@@ -62,6 +62,7 @@ namespace CSM.DataLayer
 					user.ProfileImage = dt.Rows [0] ["picpath"].ToString ();
 					user.AlbumProfileID = Decimal.Parse (dt.Rows [0] ["albumprofile"].ToString ());
 					user.AlbumPublID = Decimal.Parse (dt.Rows [0] ["albumpublication"].ToString ());
+					user.IsAdmin = decimal.Parse(dt.Rows[0]["useradmin"].ToString()) > 0;
                    
 				} else {
 					throw new WrongDataException ("Los datos facilitados no coinciden con ningún usuario de nuestra base de datos");

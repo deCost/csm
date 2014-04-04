@@ -61,7 +61,7 @@ namespace CSM.Control
                 // By using private.Master public mehods, we don't need to create a utilities class for website
                 Private privateFunctions = new Private();
 				int friendRequestsCount = 0;
-				int messagesRequestCount = 0;
+				//int messagesRequestCount = 0;
                 try
                 {
                     if (!string.IsNullOrEmpty(_user.ProfileImage))

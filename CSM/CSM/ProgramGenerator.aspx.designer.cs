@@ -19,6 +19,14 @@ namespace CSM {
 		
 		protected System.Web.UI.WebControls.RadioButton rdbProgramID;
 		
+		protected System.Web.UI.WebControls.TextBox txtPrgName;
+		
+		protected System.Web.UI.WebControls.TextBox txtPrgDesc;
+		
+		protected System.Web.UI.WebControls.DropDownList drpPrgLevel;
+		
+		protected System.Web.UI.WebControls.Button btnNewProgram;
+		
 		protected System.Web.UI.WebControls.Repeater rptSubject;
 		
 		protected System.Web.UI.WebControls.RadioButton rdbSubject;

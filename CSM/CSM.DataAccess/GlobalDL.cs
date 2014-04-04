@@ -9,6 +9,7 @@ using CSM;
 using System.Data;
 using System.Configuration;
 using System.Data.SqlClient;
+using CSM.Common;
 
 namespace CSM.DataLayer
 {
@@ -1033,7 +1034,7 @@ namespace CSM.DataLayer
 					mysql.Add (new MySqlParameter ("pruleid", schd.RuleID));
 					mysql.Add (new MySqlParameter ("pscheddesc", schd.SchedDesc));
 					mysql.Add (new MySqlParameter ("pschedtitle", schd.SchedTitle));
-					mysql.Add (new MySqlParameter ("pschedtypeid", (int)schd.SchedTypeID));
+					mysql.Add (new MySqlParameter ("pschedtypeid", (int)schd.EventType));
 					mysql.Add (new MySqlParameter ("pscheddate", schd.SchedDate));
 					mysql.Add (new MySqlParameter ("pschedrepeat", schd.SchedRepeat));
 					mysql.Add (new MySqlParameter ("pschedbookingid", schd.SchedBooking));
@@ -1046,7 +1047,7 @@ namespace CSM.DataLayer
 					sql.Add (new SqlParameter ("@ruleid", schd.RuleID));
 					sql.Add (new SqlParameter ("@scheddesc", schd.SchedDesc));
 					sql.Add (new SqlParameter ("@schedtitle", schd.SchedTitle));
-					sql.Add (new SqlParameter ("@schedtypeid", (int)schd.SchedTypeID));
+					sql.Add (new SqlParameter ("@schedtypeid", (int)schd.EventType));
 					sql.Add (new SqlParameter ("@scheddate", schd.SchedDate));
 					sql.Add (new SqlParameter ("@schedrepeat", schd.SchedRepeat));
 					sql.Add (new SqlParameter ("@schedbookingid", schd.SchedBooking));
@@ -1058,6 +1059,43 @@ namespace CSM.DataLayer
 
 				ok = schd.SchedID > 0;
 
+			} catch (Exception e) {
+				Utilities.LogException ("GlobalDL", MethodInfo.GetCurrentMethod ().Name, e);
+				ok = false;
+			} finally {
+
+			}
+
+			return ok;
+		}
+
+		public static bool InsertNewStudentRequest (int eventID, decimal userID)
+		{
+			bool ok = true;
+
+			try {
+
+
+
+				switch (dbType) {
+				case "MySQL":
+
+					List<MySqlParameter> mysql = new List<MySqlParameter> ();
+					mysql.Add (new MySqlParameter ("puserid", userID));
+					mysql.Add (new MySqlParameter ("pschedid", eventID));
+
+					MySQLMgr.ExecuteNonQuery ("schedulelink_insert", mysql.ToArray ());		
+					break;
+				case "SSQL":
+					List<SqlParameter> sql = new List<SqlParameter> ();
+					sql.Add (new SqlParameter ("@userid", userID));
+					sql.Add (new SqlParameter ("@schedid", eventID));
+
+					SSQLMgr.ExecuteNonQuery ("schedulelink_insert", sql.ToArray ());	
+					break;
+
+				}
+					
 			} catch (Exception e) {
 				Utilities.LogException ("GlobalDL", MethodInfo.GetCurrentMethod ().Name, e);
 				ok = false;
@@ -1117,7 +1155,7 @@ namespace CSM.DataLayer
 		/// <param name="user"></param>
 		/// <param name="scheduleList"></param>
 		/// <returns></returns>
-		public static bool GetScheduleFromUser (ref User user, ref List<Schedule> scheduleList)
+		public static bool GetScheduleFromUser (ref User user, ref List<Schedule> scheduleList, ref List<StudentSchedule> studentList)
 		{
 			bool ok = true;
 
@@ -1125,35 +1163,54 @@ namespace CSM.DataLayer
 
 
 
-				using (DataTable dt = new DataTable ()) {
+				using (DataSet ds = new DataSet ()) {
 
 					switch (dbType) {
 					case "MySQL":
 
 						List<MySqlParameter> mysql = new List<MySqlParameter> ();
 						mysql.Add (new MySqlParameter ("puserid", user.UserID));
-						dt.Merge (MySQLMgr.ExecuteQuery ("schedulelink_select", "Schedule", mysql.ToArray ()));
+						ds.Merge (MySQLMgr.ExecuteQuery ("schedulelink_select", mysql.ToArray ()));
 						break;
 					case "SSQL":
 						List<SqlParameter> sql = new List<SqlParameter> ();
 						sql.Add (new SqlParameter ("@userid", user.UserID));
-						dt.Merge (SSQLMgr.ExecuteQuery ("schedulelink_select", "Schedule", sql.ToArray ()));
+						ds.Merge (SSQLMgr.ExecuteQuery ("schedulelink_select", sql.ToArray ()));
 						break;
 					}
 
-					if (dt != null && dt.Rows.Count > 0) {
-						foreach (DataRow dr in dt.Rows) {
+					if (ds != null && ds.Tables.Count > 0) {
+						foreach (DataRow dr in ds.Tables[0].Rows) {
 							scheduleList.Add (new Schedule () {
 								SchedID = Decimal.Parse (dr ["schedid"].ToString ()),
 								SchedDesc = dr ["scheddesc"].ToString (),
-								SchedTypeID = Utilities.GetScheduleType (int.Parse (dr ["schedtypeid"].ToString ())),
+								UserID = Decimal.Parse (dr ["userid"].ToString ()),
+								EventType = (EventType)(int.Parse (dr ["schedtypeid"].ToString ())),
 								SchedTitle = dr ["schedtitle"].ToString (),
 								SchedDate = DateTime.Parse (dr ["scheddate"].ToString ()),
 								SchedBooking = (int)dr ["schedbookingId"]
 							});
 
 						}
+
+						if (ds.Tables.Count > 1) {
+							foreach (DataRow dr in ds.Tables[1].Rows) {
+							studentList.Add (new StudentSchedule () {
+									SchedID = Decimal.Parse (dr ["schedid"].ToString ()),
+									UserID = Decimal.Parse (dr ["userid"].ToString ()),
+									UserName = dr ["username"].ToString (),
+									UserSurname = dr ["usersurname"].ToString (),
+									SchedDate = DateTime.Parse (dr ["scheddate"].ToString ()),
+									Points = Decimal.Parse(dr["puntos"].ToString())
+								});
+
+							}
+						}
+
 					}
+
+
+
 				}
 
 
@@ -1768,10 +1825,5 @@ namespace CSM.DataLayer
 
 			return ok;
 		}
-
-
-
-
-
 	}
 }

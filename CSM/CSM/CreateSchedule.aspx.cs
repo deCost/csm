@@ -65,9 +65,9 @@ namespace CSM
                             //txtNoFriends.Visible = true;
                         }
 
-                        drpType.DataSource = GlobalBS.GetScheduleTypes();
-                        drpType.DataValueField = "Type";
-                        drpType.DataTextField = "Name";
+						drpType.DataSource = GlobalBS.GetEventsTypes();
+						drpType.DataValueField = "Value";
+						drpType.DataTextField = "Key";
                         drpType.DataBind();
 
                     }
@@ -109,7 +109,7 @@ namespace CSM
                 Schedule schd = new Schedule(){
 					SchedDesc = (string.IsNullOrEmpty(txtDesc.Text) || txtDesc.Text == "Descripción de la programación") ? "" : txtDesc.Text,
                     SchedTitle = txtTitle.Text,
-                    SchedTypeID = Utilities.GetScheduleType(int.Parse(drpType.SelectedValue)),
+					EventType = (EventType)int.Parse(drpType.SelectedValue),
                     UserID= user.UserID,
                     SchedDate = dt,
 					Friends = chkUserLinked.Items.Cast<ListItem>().Where(n => n.Selected).Select(n => n.Value).ToList()

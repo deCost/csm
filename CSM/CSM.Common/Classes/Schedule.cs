@@ -31,6 +31,8 @@ namespace CSM.Classes
         }
         private ScheduleType _schedTypeID;
 
+		public EventType EventType { get; set;}
+
         public ScheduleType SchedTypeID
         {
             get { return _schedTypeID; }

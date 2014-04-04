@@ -6,129 +6,126 @@ using CSM.Common;
 
 namespace CSM.Classes
 {
-    public class User : ITicket
-    {
+	public class User : ITicket
+	{
 		public Group Group {
 			get;
 			set;
 		}
 
-        private Decimal _userID;
+		private Decimal _userID;
 
-        public Decimal UserID
-        {
-            get { return _userID; }
-            set { _userID = value; }
-        }
-        private String _userEmail;
+		public Decimal UserID {
+			get { return _userID; }
+			set { _userID = value; }
+		}
 
-        public String UserEmail
-        {
-            get { return _userEmail; }
-            set { _userEmail = value; }
-        }
-        private String _userName;
+		private String _userEmail;
 
-        public String UserName
-        {
-            get { return _userName; }
-            set { _userName = value; }
-        }
-        private String _userSurname;
+		public String UserEmail {
+			get { return _userEmail; }
+			set { _userEmail = value; }
+		}
 
-        public String UserSurname
-        {
-            get { return _userSurname; }
-            set { _userSurname = value; }
-        }
-        private DateTime _userBirth;
+		private String _userName;
 
-        public DateTime UserBirth
-        {
-            get { return _userBirth; }
-            set { _userBirth = value; }
-        }
-        private String _userAddress;
+		public String UserName {
+			get { return _userName; }
+			set { _userName = value; }
+		}
 
-        public String UserAddress
-        {
-            get { return _userAddress; }
-            set { _userAddress = value; }
-        }
-        private String _userLogin;
+		private String _userSurname;
 
-        public String UserLogin
-        {
-            get { return _userLogin; }
-            set { _userLogin = value; }
-        }
-        private String _userPass;
+		public String UserSurname {
+			get { return _userSurname; }
+			set { _userSurname = value; }
+		}
 
-        public String UserPass
-        {
-            get { return _userPass; }
-            set { _userPass = value; }
-        }
-        private Status _statuID;
+		private DateTime _userBirth;
 
-        public Status StatuID
-        {
-            get { return _statuID; }
-            set { _statuID = value; }
-        }
-        private DateTime _loginDate;
+		public DateTime UserBirth {
+			get { return _userBirth; }
+			set { _userBirth = value; }
+		}
 
-        public DateTime LoginDate
-        {
-            get { return _loginDate; }
-            set { _loginDate = value; }
-        }
-        private String _sessionID;
+		private String _userAddress;
 
-        public String SessionID
-        {
-            get { return _sessionID; }
-            set { _sessionID = value; }
-        }
+		public String UserAddress {
+			get { return _userAddress; }
+			set { _userAddress = value; }
+		}
 
-        private string _profileImage;
+		private String _userLogin;
 
-        public string ProfileImage
-        {
-            get { return _profileImage == "" ? "/images/noimageprofile.jpg" : "/userData/" + _profileImage; }
-            set { _profileImage = value; }
-        }
+		public String UserLogin {
+			get { return _userLogin; }
+			set { _userLogin = value; }
+		}
 
-        private Decimal _albumProfileID;
+		private String _userPass;
 
-        public Decimal AlbumProfileID
-        {
-            get { return _albumProfileID; }
-            set { _albumProfileID = value; }
-        }
+		public String UserPass {
+			get { return _userPass; }
+			set { _userPass = value; }
+		}
 
-        private Decimal _albumPublID;
+		private Status _statuID;
 
-        public Decimal AlbumPublID
-        {
-            get { return _albumPublID; }
-            set { _albumPublID = value; }
-        }
+		public Status StatuID {
+			get { return _statuID; }
+			set { _statuID = value; }
+		}
 
-        public string AuthenticationType
-        {
-            get { return ""; }
-        }
+		private DateTime _loginDate;
 
-        public bool IsAuthenticated
-        {
-            get { return _statuID == Status.Logged; }
-        }
+		public DateTime LoginDate {
+			get { return _loginDate; }
+			set { _loginDate = value; }
+		}
 
-        public string Name
-        {
-            get { return string.Format("{0} {1}",_userName,_userSurname); }
-        }
-    
-    }
+		private String _sessionID;
+
+		public String SessionID {
+			get { return _sessionID; }
+			set { _sessionID = value; }
+		}
+
+		private string _profileImage;
+
+		public string ProfileImage {
+			get { return _profileImage == "" ? "/images/noimageprofile.jpg" : "/userData/" + _profileImage; }
+			set { _profileImage = value; }
+		}
+
+		private Decimal _albumProfileID;
+
+		public Decimal AlbumProfileID {
+			get { return _albumProfileID; }
+			set { _albumProfileID = value; }
+		}
+
+		private Decimal _albumPublID;
+
+		public Decimal AlbumPublID {
+			get { return _albumPublID; }
+			set { _albumPublID = value; }
+		}
+
+		public string AuthenticationType {
+			get { return ""; }
+		}
+
+		public bool IsAdmin {
+			get;
+			set;
+		}
+
+		public bool IsAuthenticated {
+			get { return _statuID == Status.Logged; }
+		}
+
+		public string Name {
+			get { return string.Format ("{0} {1}", _userName, _userSurname); }
+		}
+	}
 }

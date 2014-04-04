@@ -9,52 +9,89 @@ using System.IO;
 using CSM.Master;
 using CSM.Classes;
 using CMS.DataManager;
-
+using CSM.Common;
 
 namespace CSM.Control
 {
-    public partial class UserScheduleList : System.Web.UI.UserControl
-    {
-		public List<ScheduleType> lstSchedToShow = new List<ScheduleType>();
+	public partial class UserScheduleList : System.Web.UI.UserControl
+	{
+		public List<EventType> lstEventToShow = new List<EventType> ();
+		Private privateFunctions = new Private ();
+		User user = null;
+		List<StudentSchedule> studentList;
 
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            // By using private.Master public mehods, we don't need to create a utilities class for website
-            Private privateFunctions = new Private();
+		protected void Page_Load (object sender, EventArgs e)
+		{
+			// By using private.Master public mehods, we don't need to create a utilities class for website
+            
 
-            try
-            {
-                User user = null;
-                if (privateFunctions.isLoggedSession(ref user))
-                {
-                    string eventArgs = Request["__EVENTARGUMENT"];
-                    if (!Page.IsPostBack || eventArgs.StartsWith("RefreshSchedule"))
-                    {
-                        List<Schedule> scheduleList = new List<Schedule>();
+			try {
+				if (privateFunctions.isLoggedSession (ref user)) {
+					string eventArgs = Request ["__EVENTARGUMENT"];
+					if (!Page.IsPostBack || eventArgs.StartsWith ("RefreshSchedule")) {
+						LoadScheduleList ();
 
-                        if (GlobalBS.GetScheduleFromUser(ref user, ref scheduleList))
-                        {
-							rptSchedule.DataSource = scheduleList.FindAll(s => lstSchedToShow.Contains(s.SchedTypeID));
-							rptSchedule.DataBind();
-                        }
-                    }
-                }
+					}
+				}
 
-            }
-            catch (WrongDataException ex)
-            {
-                Utilities.LogException(Path.GetFileName(Request.Path),
-                            MethodInfo.GetCurrentMethod().Name,
-                            ex);
-            }
-            catch (Exception ex)
-            {
-                //Script register to show exception info
-				ScriptManager.RegisterStartupScript(this, this.GetType(), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
-                Utilities.LogException(Path.GetFileName(Request.Path),
-                            MethodInfo.GetCurrentMethod().Name,
-                            ex);
-            }
-        }
-    }
+			} catch (WrongDataException ex) {
+				Utilities.LogException (Path.GetFileName (Request.Path),
+					MethodInfo.GetCurrentMethod ().Name,
+					ex);
+			} catch (Exception ex) {
+				//Script register to show exception info
+				ScriptManager.RegisterStartupScript (this, this.GetType (), "showMsg", @"alertError('Lo sentimos pero ha ocurrido un error inexperado');", true);
+				Utilities.LogException (Path.GetFileName (Request.Path),
+					MethodInfo.GetCurrentMethod ().Name,
+					ex);
+			}
+		}
+
+		protected void btnStuden_Click (object sender, EventArgs e)
+		{
+			Button btn = (Button)sender;
+
+			int eventID = int.Parse (btn.Attributes ["data-value"]);
+
+			privateFunctions.isLoggedSession (ref user);
+
+			if (GlobalBS.InsertNewStudentRequest (eventID, user.UserID)) {
+				LoadScheduleList ();
+			}
+
+		}
+
+		private void LoadScheduleList ()
+		{
+			List<Schedule> scheduleList = new List<Schedule> ();
+			studentList = new List<StudentSchedule> ();
+
+			if (GlobalBS.GetScheduleFromUser (ref user, ref scheduleList, ref studentList)) {
+				List<Schedule> noavailableEvents = scheduleList.FindAll (ss => ss.UserID == user.UserID);
+				scheduleList.RemoveAll (ss => !(lstEventToShow.Contains (ss.EventType) || ss.UserID == user.UserID));
+				noavailableEvents.ForEach (ss => scheduleList.RemoveAll (ss2 => ss2.SchedID == ss.SchedID));
+				rptSchedule.DataSource = scheduleList;
+				rptSchedule.DataBind ();
+
+				rptBooked.DataSource = noavailableEvents;
+				rptBooked.DataBind ();
+			}
+		}
+
+		protected void rptBooked_ItemDataBound (object sender, RepeaterItemEventArgs e)
+		{
+			if (e.Item.ItemType == ListItemType.Item && studentList != null && studentList.Count > 0) {
+
+				List<StudentSchedule> students = studentList.FindAll (s => s.SchedID == ((Schedule)e.Item.DataItem).SchedID);
+
+				Utilities.GetStudentsTotalPoints (ref students);
+
+				students.OrderByDescending (s => s.TotalPoints);
+
+				((Repeater)e.Item.FindControl ("rptStudents")).DataSource = students;
+				((Repeater)e.Item.FindControl ("rptStudents")).DataBind ();
+			}
+
+		}
+	}
 }

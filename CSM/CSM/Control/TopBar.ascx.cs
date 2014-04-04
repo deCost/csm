@@ -35,10 +35,15 @@ namespace CSM.Control
 
 				lstLinks.Add(new KeyValuePair<string, string>("Menú",string.Empty));
 				lstLinks.Add(new KeyValuePair<string, string>("Eventos","~/List.aspx?fn=e"));
-				lstLinks.Add(new KeyValuePair<string, string>("Clases","~/List.aspx?fn=c"));
 				lstLinks.Add(new KeyValuePair<string, string>("Mis datos","~/Settings.aspx"));
-				lstLinks.Add(new KeyValuePair<string, string>("Amigos","~/List.aspx?fn=a"));
-				lstLinks.Add(new KeyValuePair<string, string>("Crear evento","~/CreateSchedule.aspx"));
+
+				if(user.IsAdmin)
+				{
+					lstLinks.Add(new KeyValuePair<string, string>("Clases","~/List.aspx?fn=c"));
+					lstLinks.Add(new KeyValuePair<string, string>("Amigos","~/List.aspx?fn=a"));
+					lstLinks.Add(new KeyValuePair<string, string>("Crear evento","~/CreateSchedule.aspx"));
+					lstLinks.Add(new KeyValuePair<string, string>("Crear programa","~/ProgramGenerator.aspx"));
+				}
 
 				drpMenu.DataSource = rptMenu.DataSource = lstLinks;
 				drpMenu.DataTextField = "Key";

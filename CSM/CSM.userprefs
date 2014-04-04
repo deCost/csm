@@ -1,27 +1,22 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSM/Control/UserScheduleList.ascx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSM/Control/TopBar.ascx.cs">
     <Files>
-      <File FileName="CSM/Master/Private.Master" Line="1" Column="1" />
-      <File FileName="CSM/Control/Profile.ascx" Line="1" Column="1" />
-      <File FileName="CSM/Control/UserBubblesList.ascx" Line="1" Column="1" />
-      <File FileName="CSM/Control/Footer.ascx" Line="1" Column="1" />
-      <File FileName="CSM/Control/Footer.ascx.cs" Line="1" Column="1" />
-      <File FileName="CSM/Control/Footer.ascx.designer.cs" Line="1" Column="1" />
-      <File FileName="CSM/Control/Profile.ascx.cs" Line="1" Column="1" />
-      <File FileName="CSM/Master/Public.master" Line="1" Column="1" />
-      <File FileName="CSM/Default.aspx" Line="1" Column="1" />
+      <File FileName="CSM.Common/Classes/Program.cs" Line="1" Column="1" />
+      <File FileName="CSM/ProgramGenerator.aspx" Line="27" Column="150" />
+      <File FileName="CSM/ProgramGenerator.aspx.cs" Line="1" Column="1" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/3.2.6/lib/mono/4.0/Microsoft.Common.targets" Line="1" Column="1" />
       <File FileName="CSM/Default.aspx.cs" Line="1" Column="1" />
-      <File FileName="CSM.DataManager/DefaultBS.cs" Line="1" Column="1" />
       <File FileName="CSM.DataAccess/DefaultDL.cs" Line="1" Column="1" />
+      <File FileName="CSM.DataManager/ClassRoomBS.cs" Line="1" Column="1" />
+      <File FileName="CSM.DataAccess/ClassRoomDL.cs" Line="1" Column="1" />
+      <File FileName="CSM.DataAccess/MySQLMgr.cs" Line="1" Column="1" />
+      <File FileName="CSM/ProgramGenerator.aspx.designer.cs" Line="1" Column="1" />
       <File FileName="CSM/css/trampa.css" Line="1" Column="1" />
-      <File FileName="CSM/Global.asax" Line="1" Column="1" />
-      <File FileName="CSM/Global.asax.cs" Line="1" Column="1" />
-      <File FileName="CSM/AjaxHandler.ashx.cs" Line="1" Column="1" />
-      <File FileName="CSM/js/Private.js" Line="1" Column="1" />
-      <File FileName="CSM/List.aspx" Line="1" Column="1" />
-      <File FileName="CSM/List.aspx.cs" Line="1" Column="1" />
-      <File FileName="CSM/Control/UserScheduleList.ascx.cs" Line="38" Column="31" />
+      <File FileName="CSM.Common/Classes/Subject.cs" Line="1" Column="1" />
+      <File FileName="CSM/Settings.aspx" Line="1" Column="1" />
+      <File FileName="CSM/Master/Private.Master.cs" Line="1" Column="1" />
+      <File FileName="CSM/Control/TopBar.ascx.cs" Line="39" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -30,8 +25,7 @@
       <Breakpoint file="/Users/costillo/Projects/CSM/CSM/AjaxHandler.ashx.cs" line="296" column="1" />
       <Breakpoint file="/Users/costillo/Projects/CSM/CSM/Settings.aspx.cs" line="293" column="1" />
       <Breakpoint file="/Users/costillo/Projects/CSM/CSM/CreateSchedule.aspx.cs" line="164" column="1" />
-      <Breakpoint file="/Users/costillo/Documents/GitHub/csm/CSM/CSM/Default.aspx.cs" line="29" column="1" />
-      <Breakpoint file="/Users/costillo/Documents/GitHub/csm/CSM/CSM.DataAccess/DefaultDL.cs" line="31" column="1" />
+      <Breakpoint file="/Users/costillo/Documents/GitHub/csm/CSM/CSM/ProgramGenerator.aspx.cs" line="29" column="9" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
