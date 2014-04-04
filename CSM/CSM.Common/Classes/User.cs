@@ -120,6 +120,32 @@ namespace CSM.Classes
 			set;
 		}
 
+		public decimal TotalPerformance { get; set; }
+
+		public DateTime LastDate {get;set;}
+
+		private decimal _myPoints;
+
+		public decimal MyPoints
+		{ get{ return _myPoints;} set{ _myPoints = value;} }
+
+		public decimal TotalPoints {
+			get{
+				decimal totalSum = 0;
+				 
+
+				if(TotalPerformance > 0)
+				{
+					totalSum += (decimal)((DateTime.Now.Subtract(LastDate).TotalDays / 14) * -50);
+
+					totalSum += TotalPerformance * 25;
+				}
+
+				return totalSum;
+			}
+
+		}
+
 		public bool IsAuthenticated {
 			get { return _statuID == Status.Logged; }
 		}

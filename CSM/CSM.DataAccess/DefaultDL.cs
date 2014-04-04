@@ -26,23 +26,23 @@ namespace CSM.DataLayer
 		{
 			bool ok = true;
 			try {
-				DataTable dt = new DataTable();
+				DataTable dt = new DataTable ();
 
 				switch (dbType) {
-					case "MySQL":
-						List<MySqlParameter> mysql = new List<MySqlParameter> ();
+				case "MySQL":
+					List<MySqlParameter> mysql = new List<MySqlParameter> ();
 
-						mysql.Add (new MySqlParameter ("puserlogin", user.UserLogin));
-						mysql.Add (new MySqlParameter ("puserpass", user.UserPass));
-						dt = MySQLMgr.ExecuteQuery ("user_login", "login", mysql.ToArray ());		
-						break;
-					case "SSQL":
-						List<SqlParameter> sql = new List<SqlParameter> ();
+					mysql.Add (new MySqlParameter ("puserlogin", user.UserLogin));
+					mysql.Add (new MySqlParameter ("puserpass", user.UserPass));
+					dt = MySQLMgr.ExecuteQuery ("user_login", "login", mysql.ToArray ());		
+					break;
+				case "SSQL":
+					List<SqlParameter> sql = new List<SqlParameter> ();
 
-						sql.Add (new SqlParameter ("@userlogin", user.UserLogin));
-						sql.Add (new SqlParameter ("@userpass", user.UserPass));
-						dt = SSQLMgr.ExecuteQuery ("user_login", "login", sql.ToArray ());		
-						break;
+					sql.Add (new SqlParameter ("@userlogin", user.UserLogin));
+					sql.Add (new SqlParameter ("@userpass", user.UserPass));
+					dt = SSQLMgr.ExecuteQuery ("user_login", "login", sql.ToArray ());		
+					break;
 				}
 
 
@@ -62,7 +62,9 @@ namespace CSM.DataLayer
 					user.ProfileImage = dt.Rows [0] ["picpath"].ToString ();
 					user.AlbumProfileID = Decimal.Parse (dt.Rows [0] ["albumprofile"].ToString ());
 					user.AlbumPublID = Decimal.Parse (dt.Rows [0] ["albumpublication"].ToString ());
-					user.IsAdmin = decimal.Parse(dt.Rows[0]["useradmin"].ToString()) > 0;
+					user.IsAdmin = decimal.Parse (dt.Rows [0] ["useradmin"].ToString ()) > 0;
+					user.LastDate = (DateTime)dt.Rows [0] ["lastDate"];
+					user.TotalPerformance = Decimal.Parse (dt.Rows [0] ["totalperformance"].ToString ());
                    
 				} else {
 					throw new WrongDataException ("Los datos facilitados no coinciden con ningún usuario de nuestra base de datos");

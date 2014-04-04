@@ -48,7 +48,7 @@
                 		<p><%# ((CSM.Classes.Schedule)Container.DataItem).SchedDesc %></p>
                 	</div>
                 	<div class="seven columns listcontent left">
-                		<asp:Button runat="server" id="btnBooking" Text="Reservar" PostBackUrl="<%# ((CSM.Classes.Schedule)Container.DataItem).SchedBookingUrl %>" Visible="<%# ((CSM.Classes.Schedule)Container.DataItem).SchedBooking > 0 %>" />
+                		<asp:Button runat="server" id="btnBooking" Text="Reservar" data-url="<%# ((CSM.Classes.Schedule)Container.DataItem).SchedBookingUrl %>" OnClientClick="document.location.href = $(this).attr('data-url');return false;"  Visible="<%# ((CSM.Classes.Schedule)Container.DataItem).SchedBooking > 0 %>" />
 
                 		<asp:Button runat="server" id="btnStudent" OnClick="btnStuden_Click" data-value="<%# ((CSM.Classes.Schedule)Container.DataItem).SchedID %>" Text="Apuntarse como alumno" Visible="<%# ((CSM.Classes.Schedule)Container.DataItem).EventType == CSM.Classes.EventType.MartesAlternos %>" />
                 	</div>

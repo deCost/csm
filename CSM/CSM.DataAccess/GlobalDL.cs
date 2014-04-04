@@ -1201,6 +1201,7 @@ namespace CSM.DataLayer
 									UserName = dr ["username"].ToString (),
 									UserSurname = dr ["usersurname"].ToString (),
 									SchedDate = DateTime.Parse (dr ["scheddate"].ToString ()),
+									BookDate = (DateTime)dr ["schedlinkdate"],
 									Points = Decimal.Parse(dr["puntos"].ToString())
 								});
 

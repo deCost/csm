@@ -68,8 +68,13 @@ namespace CSM.Control
 
 			if (GlobalBS.GetScheduleFromUser (ref user, ref scheduleList, ref studentList)) {
 				List<Schedule> noavailableEvents = scheduleList.FindAll (ss => ss.UserID == user.UserID);
+
+				// Remove non listable items
 				scheduleList.RemoveAll (ss => !(lstEventToShow.Contains (ss.EventType) || ss.UserID == user.UserID));
+
+				// Filtering for each event the user has been booked
 				noavailableEvents.ForEach (ss => scheduleList.RemoveAll (ss2 => ss2.SchedID == ss.SchedID));
+
 				rptSchedule.DataSource = scheduleList;
 				rptSchedule.DataBind ();
 
@@ -80,11 +85,18 @@ namespace CSM.Control
 
 		protected void rptBooked_ItemDataBound (object sender, RepeaterItemEventArgs e)
 		{
-			if (e.Item.ItemType == ListItemType.Item && studentList != null && studentList.Count > 0) {
+			if ((e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem) && studentList != null && studentList.Count > 0) {
 
 				List<StudentSchedule> students = studentList.FindAll (s => s.SchedID == ((Schedule)e.Item.DataItem).SchedID);
 
 				Utilities.GetStudentsTotalPoints (ref students);
+
+				/*students.Add (new StudentSchedule () { 
+					UserName = user.UserName,
+					UserSurname = user.UserSurname,
+					UserID = user.UserID,
+					TotalPoints = user.TotalPoints
+				});*/
 
 				students.OrderByDescending (s => s.TotalPoints);
 

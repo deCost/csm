@@ -258,3 +258,9 @@ No ha sido posible completar el login
                                                                     el estado del usuario en la BBDD: 
                                                                     UserId: 3, Status: 1 
  Stacktrace:
+04/04/02014 11:13#Error occured from GlobalDL[UpdateUserStatus] | Error message: Table 'dbo.users' doesn't exist 
+ Stacktrace:
+04/04/02014 11:13#Error occured from DefaultBS[ProcessLoginForm] | Error message: Ha ocurrido un error al actualizar 
+                                                                    el estado del usuario en la BBDD: 
+                                                                    UserId: 3, Status: 1 
+ Stacktrace:

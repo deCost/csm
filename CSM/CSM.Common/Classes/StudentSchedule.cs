@@ -14,6 +14,7 @@ namespace CSM.Classes
 			}
 		}
 		public DateTime SchedDate { get; set;}
+		public DateTime BookDate { get; set;}
 		public decimal Points { get; set;}
 		public decimal TotalPoints { get; set;}
 
